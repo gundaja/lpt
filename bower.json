@@ -1,0 +1,20 @@
+{
+  "name": "lpt web",
+  "version": "0.0.0",
+  "homepage": "https://localhost:8483/lptweb",
+  "main": "web/index.html",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "html5-boilerplate": "~4.3.0",
+    "ocLazyLoad": "",
+	"bootstrap": "",
+	"angular-block-ui": "",
+	"angular-ui-router": "~0.2.13",
+	"jquery": ">=1.7"
+  }
+}
