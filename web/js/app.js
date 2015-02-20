@@ -1,106 +1,164 @@
+var app = angular.module('lte-web', ['ui.router', 'ui.bootstrap', 'oc.lazyLoad']);
+app.run(
+	['$rootScope', '$state', '$stateParams',
+		function ($rootScope, $state, $stateParams) {
+			$rootScope.userId = "gundaja";
+			$rootScope.appName = "LPT";
+			// It's very handy to add references to $state and $stateParams to the $rootScope
+			// so that you can access them from any scope within your applications.For example,
+			// <li ng-class="{ active: $state.includes('contacts.list') }"> will set the <li>
+			// to active whenever 'contacts.list' or one of its decendents is active.
+			$rootScope.$state = $state;
+			$rootScope.$stateParams = $stateParams;
+		}
+	])
 
-angular.module("lpt-web", ["ui.router","oc.lazyLoad"])
-    .config(function($stateProvider){
+// Set 	
+.config(['$ocLazyLoadProvider', function($ocLazyLoadProvider) {
+		$ocLazyLoadProvider.config({
+			events: true,
+			debug: true
+		});
+}])
+
+.config(function ($stateProvider, $urlRouterProvider) {
+
+	$urlRouterProvider.otherwise('/home');
+
 	$stateProvider
-	.state('/',{
-		templateUrl: "home.html",
-		controller: "HomeCtrl as home",
-		resolve:{
-			store:function($ocLazyLoad){
-				return $ocLazyLoad.load(
-				{
-					name:"home",
-					files:["js/home.js"]
-				})
-			}
-		}
-	})
-	.state('scanTrend', {
-		url: "/scanTrend",
-        templateUrl: "partials/scanTrend.html",
-		resolve:{
-			store:function($ocLazyLoad){
-				return $ocLazyLoad.load(
-				{
-					name:"scanTrend",
-					files:["js/scanTrend.js"]
-				})
-			}
-		}
-	})
-	.state('route2', {
-		url: "/route2",
-		views: {
-			"viewA": {
-				template: "route2.viewA"
-			},
-			"viewB": {
-				template: "route2.viewB"
-			}
-		}
-	})
-	.state('about', {
-	  url: '/about',
 
-	  // Showing off how you could return a promise from templateProvider
-	  templateProvider: ['$timeout',
-		function (        $timeout) {
-		  return $timeout(function () {
-			return '<p class="lead">UI-Router Resources</p><ul>' +
-					 '<li><a href="https://github.com/angular-ui/ui-router/tree/master/sample">Source for this Sample</a></li>' +
-					 '<li><a href="https://github.com/angular-ui/ui-router">Github Main Page</a></li>' +
-					 '<li><a href="https://github.com/angular-ui/ui-router#quick-start">Quick Start</a></li>' +
-					 '<li><a href="https://github.com/angular-ui/ui-router/wiki">In-Depth Guide</a></li>' +
-					 '<li><a href="https://github.com/angular-ui/ui-router/wiki/Quick-Reference">API Reference</a></li>' +
-				   '</ul>';
-		  }, 100);
-		}]
+	.state('home', {
+		url : '/home',
+		views : {
+			'' : {
+				templateUrl : 'partials/home.html'
+			},			
+			'home@new' : {
+				templateUrl : 'partials/pref-user-profile.html',
+				controller : "UserPrefCtrl as userPref",
+				resolve:{
+					store:function($ocLazyLoad){
+						return $ocLazyLoad.load(
+						{
+							name:"preference",
+							files:["js/userPref.js"]
+						})
+					}
+				}
+			},
+			
+			'home@perf-charts' : {
+				templateUrl : 'partials/pref-mme-pool.html',
+				controller : "MmePoolCtrl as mmePool",
+				resolve:{
+					store:function($ocLazyLoad){
+						return $ocLazyLoad.load(
+						{
+							name:"mmepool",
+							files:["js/mmepool.js"]
+						})
+					}
+				}
+			},		
+		}
 	})
+
+	.state('userprofile', {
+		url : '/user-pref',
+		views : {
+			'' : {
+				templateUrl : 'partials/pref.html'
+			},
+			
+			'profile-tab@user-profile' : {
+				templateUrl : 'partials/pref-user-profile.html',
+				controller : "UserPrefCtrl as userPref",
+				resolve:{
+					store:function($ocLazyLoad){
+						return $ocLazyLoad.load(
+						{
+							name:"preference",
+							files:["js/userPref.js"]
+						})
+					}
+				}
+			},
+			
+			'profile-tab@mme-pool' : {
+				templateUrl : 'partials/pref-mme-pool.html',
+				controller : "MmePoolCtrl as mmePool",
+				resolve:{
+					store:function($ocLazyLoad){
+						return $ocLazyLoad.load(
+						{
+							name:"mmepool",
+							files:["js/mmepool.js"]
+						})
+					}
+				}
+			},		
+		}
+
+	})
+	
+	.state('cellgroups', {
+		url : '/cg',
+		templateUrl : 'partials/partial-home.html'
+	})
+	
+	// .state('userprofile', {
+		// url : '/userProfile',
+		// templateUrl : 'partials/pref-user-profile.html',
+		// controller : "userPrefCtrl as user",
+        // resolve:{
+            // store:function($ocLazyLoad){
+                // return $ocLazyLoad.load(
+                // {
+                    // name:"user",
+                    // files:["js/userPref.js"]
+                // })
+            // }
+        // }
+	// })
+	
+	.state('home.list', {
+		url : '/list',
+		templateUrl : 'partials/partial-home-list.html',
+		controller : "HomeCtrl as home",
+        resolve:{
+            store:function($ocLazyLoad){
+                return $ocLazyLoad.load(
+                {
+                    name:"home",
+                    files:["js/home.js"]
+                })
+            }
+        }
+
 	})	
-    .controller("AppCtrl", function ($scope, $injector, $ocLazyLoad, $state) {
-        var app = this;
-		$scope.appName = "LPT";
-		
-		//we can load it when controller is initialized
-		$state.go("/");
-	
-		
-        app.click = function () {
-		$state.go("/");
-            $ocLazyLoad.load({
-                name: "store",
-                files: [
-                    "js/store.js",
-					"css/style.css",
-					"js/AjaxServices.js"
-                ]
-            }).then(function () {
-                console.log($injector.get("cart"));
-            })
-        }
-    })
-	
-	.controller("ScanTrendCtrl", function ($scope, $injector, $ocLazyLoad, $state) {
-        var app = this;
-		$scope.appName = "LPT";
-		
-		
-		
-		//we can load it when controller is initialized
-		$state.go("/");
-	
-		
-        app.click = function () {
-		$state.go("/");
-            $ocLazyLoad.load({
-                name: "store",
-                files: [
-                    "js/store.js",
-					"css/style.css",
-					"js/AjaxServices.js"
-                ]
-            }).then(function () {
-                console.log($injector.get("cart"));
-            })
-        }
-    })
+
+	// nested list with just some random string data
+	.state('home.paragraph', {
+		url : '/paragraph',
+		template : 'I could sure use a drink right now.'
+	})
+
+	// ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
+	.state('about', {
+		url : '/about',
+		views : {
+			'' : {
+				templateUrl : 'partials/partial-about.html'
+			},
+			'columnOne@about' : {
+				template : 'Look I am a column!'
+			},
+			'columnTwo@about' : {
+				templateUrl : 'partials/table-data.html',
+				controller : 'scotchController'
+			}
+		}
+
+	});
+
+});

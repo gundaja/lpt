@@ -1,0 +1,74 @@
+<style>
+	.row {
+		margin-left: 0px;
+	}
+</style>
+<div>
+	<div class="row">
+		<div class="col-md-6">
+			<label>User ID:</label><br/>
+			<span>{{userId}}</span>
+		</div>
+		
+		<div class="col-md-6">
+			<label for="selSwitch">Region:</label>
+			<select ng-model="model.userInfo.regionId" ng-options="m as m for m in userPref.regionList" 
+				id="selSwitch" class="form-control"	required=""/>
+			</div>
+		</div>
+			
+	<div class="row">
+		<div class="col-md-6">
+			<label>First name:</label>					
+			<input ng-model="model.userInfo.firstName" class="form-control" placeholder="Enter first name">
+		</div>
+		
+		<div class="col-md-6">
+			<label for="selSwitch">Market</label>
+			<select ng-model="model.userInfo.marketId" ng-options="m as m for m in userPref.marketList" 
+				id="selSwitch" class="form-control"	required=""/>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-6">
+			<label>Last name:</label>					
+			<input ng-model="model.userInfo.lastName" class="form-control" placeholder="Enter last name">
+		</div>
+		
+		<div class="col-md-6">
+			<label>Email Address:</label>					
+			<input type="email" ng-model="model.userInfo.emailAddress" class="form-control" placeholder="Enter email address">
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-6">
+			<label>Max # of scheduled reports:{{model.userInfo.maxNo}}</label><br/>				
+			<label>Current disk usage (MB):{{model.userInfo.currentDiskUsage}}</label><br/>				
+			<label>Max disk usage (MB):{{model.userInfo.maxDiskUsage}}</label><br/>				
+			<label>Purge limit (days):{{model.userInfo.purgeLimit}}</label><br/>		
+			<label>Access level:{{model.userInfo.accessLevel}}</label><br/>		
+			<label>Status:{{model.userInfo.status}}</label><br/>
+		</div>
+		
+		<div class="col-md-6">
+			<label>Mobile Number:</label>					
+			<input ng-model="model.userInfo.mobileNumber" class="form-control" placeholder="Enter email address">
+		</div>
+		
+		<div class="col-md-6">
+			<label>
+			  <input type="checkbox"> HeadQuarters Region
+			</label>
+		</div>
+		
+		<div class="col-md-6">
+			<label for="timeZone">Timezone</label>
+			<select ng-model="model.timeZone" ng-options="m as m for m in userPref.timeZone" 
+				id="selSwitch" class="form-control"	required=""/>
+		</div>
+	</div>
+</div>
+	
+

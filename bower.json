@@ -15,6 +15,10 @@
 	"bootstrap": "",
 	"angular-block-ui": "",
 	"angular-ui-router": "~0.2.13",
+	"angular-ui-bootstrap": "~0.12.x",
+	"angular-ui-utils": "~0.2.x",
+	"ui-select": "",
 	"jquery": ">=1.7"
   }
 }
+

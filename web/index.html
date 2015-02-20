@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-  <meta charset="UTF-8">
-  <title></title>
-  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
-  <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet">
+<head>
 
-  <!--<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">-->
-  <script src="https://rawgit.com/ocombe/ocLazyLoad/master/dist/ocLazyLoad.js"></script>
-  <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-  <script src="js/app.js"></script>
-</head>
-<body ng-app="lpt-web" ng-controller="AppCtrl as app" class="container">
-	<div class="navbar navbar-default navbar-fixed-top">
-		<div class="navbar-inner">
-		  <a class="brand" ui-sref="/">&nbsp;{{appName}}</a>
-		  <ul class="nav">
-			<li><a ui-sref="scanTrend">Scan Trend</a></li>
-			<li><a ui-sref="route2">Menu 2</a></li>
-			<li><a ui-sref="about">About</a></li>
-		  </ul>
-		</div>
-	</div>
-
+    <!-- CSS (load bootstrap) -->
 	
-	<div ui-view class="container slide" style="padding-top: 80px;"></div>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!--
+	<link href="style.css" rel="stylesheet">
+	-->
 
-<!--
-	<div class="row" style="padding-top: 50px">
-		<div class="span6">
-		  <div class="well" ui-view="viewA"></div>        
-		</div>
-		<div class="span6">
-		  <div class="well" ui-view="viewB"></div>        
-		</div>
-	</div> 
--->
+    <style>
+        .navbar { border-radius:0; }
+    </style>
+	
+    <!-- JS (load angular, ui-router, and our custom js file) -->
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="bower_components/ocLazyLoad/dist/ocLazyLoad.js"></script>
+	<script type="text/javascript" src="bower_components/angular-ui-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    
+</head>
 
- <hr>
-    <pre>
-      <!-- Here's some values to keep an eye on in the sample in order to understand $state and $stateParams -->
-      $state = {{$state}}
-      $stateParams = {{$stateParams}}
-      $state full url = {{ $state.$current.url.source }}
-      <!-- $state.$current is not a public api, we are using it to
-           display the full url for learning purposes-->
-    </pre>
-	</hr>
+<!-- apply our angular app to our site -->
+<body ng-app="lte-web">
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand">{{appName}}</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li><a ui-sref="home">Home</a></li>
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown">Reports<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a ui-sref="userprofile">My Profile</a></li>
+				<li><a ui-sref="cellgroups">My Cellgroups</a></li>
+			</ul>
+		</li>
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown">My Preferences<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a ui-sref="userprofile">My Profile</a></li>
+				<li><a ui-sref="cellgroups">My Cellgroups</a></li>
+			</ul>
+		</li>
+		<li><a ui-sref="about">About</a></li>
+    </ul>
+</nav>
+
+<!-- MAIN CONTENT -->
+<!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+<div class="container">
+    <div ui-view></div>
+</div>
+
+<div class="text-center">
+</div>
+
+	<script src="js/app.js"></script>
 </body>
 </html>
+

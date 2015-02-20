@@ -1,0 +1,17 @@
+<style>
+	.tab-content {
+		padding: 10px;
+	}
+</style>
+<tabset>
+	<tab heading="My Profile">
+	    <div ui-view="profile-tab@user-profile"></div>
+	</tab>
+	
+	<tab heading="My MME Pools and Markets">
+		<div ui-view="profile-tab@mme-pool"></div> 
+	</tab>
+	</tab>
+</tabset>
+
+<div ui-view></div>
