@@ -1,0 +1,99 @@
+<style>
+.gridStyle {
+	border: 1px solid rgb(212,212,212);	
+	height: 100%;
+}
+
+#jtree {
+	overflow:auto; 
+	padding-top: 10px;
+}
+
+.jstree-default a.jstree-search {  
+    font-weight: bold;
+	text-decoration: underline;
+	font-style: normal;
+}
+
+</style>
+
+<div class="row row-full-height" id="report-browser-div">	
+	<div class="col-md-4 row-full-height">
+		<div class="panel panel-default row-full-height"  >
+			<div class="panel-heading"><i class="glyphicon glyphicon-tree-conifer"></i>Browse Reports</div>
+			<div class="panel-body" >		
+				<div class="input-group">
+				   <input type="text" ng-model="textSearch" class="form-control" placeholder="Search for...">
+				   <span class="input-group-btn">
+					  <button ng-click="treeSearch()" class="btn btn-default"  type="button">Filter</button>
+				   </span>
+				</div><!-- /input-group -->				
+				
+				<div id="jtree"></div>			
+			</div>
+		</div>
+	</div>
+	
+	
+		<div class="col-md-8 col-full-height row-full-height">
+			<div class="panel panel-default row-full-height"  >
+				<div class="panel-heading"><i class=""></i>View User Reports</div>
+				<div class="panel-body" >
+					<div class="row">
+						<div class="col-md-5">
+							<label>Report name</label>					
+							<input ng-model="filter.reportname" ng-change="change()" class="form-control" placeholder="Search for...">
+						</div>
+						
+						<div class="col-md-2"></div>
+						
+						<div class="col-md-5">
+							<label for="status">Status</label>						
+							<select ng-model="filter.status" ng-options="m as m for m in rb.status" 
+								class="form-control"	required="true" ng-change="change()">
+							</select>
+						</div>
+					</div>
+					
+					<br/>
+					<div class="row row-full-height">
+						<div class="col-md-5">
+							<label>Date Started</label>
+							<div class="input-group">							
+								<input type="text" class="form-control" datepicker-popup="{{format}}" 
+									ng-model="filter.datestarted" is-open="opened[0]"  
+									min-date="minDate" 
+									datepicker-options="dateOptions"
+									ng-change="change()"/>
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default" ng-click="open($event, 0)"><i class="glyphicon glyphicon-calendar"></i></button>
+								</span>
+							</div>
+						</div>
+						
+						<div class="col-md-2"></div>
+						
+						<div class="col-md-5">
+							<label>Date Ended</label>
+							<div class="input-group">							
+								<input type="text" class="form-control" datepicker-popup="{{format}}" 
+									ng-model="filter.dateended" is-open="opened[1]"  
+									min-date="minDate" 
+									datepicker-options="dateOptions"/>
+								<span class="input-group-btn">
+									<button type="button" class="btn btn-default" ng-click="open($event, 1)"><i class="glyphicon glyphicon-calendar"></i></button>
+								</span>
+							</div>
+						</div>
+					</div>
+					
+					<br/>
+					
+					<div class="row-full-height">
+					<div id="report-grid" ui-grid="gridOptions" ui-grid-selection class="gridStyle"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+</div>		

@@ -1,0 +1,112 @@
+angular.module("reportBrowser", [{
+			name : "webService",
+			files : ["js/service.js"]
+		}, {
+			name : "ngJsTree",
+			serie : true,
+			files : ["bower_components/jstree/dist/themes/default/style.min.css",
+				"bower_components/jstree/dist/jstree.min.js",				
+				"bower_components/slickgrid/lib/jquery.event.drag-2.2.js",
+				"bower_components/slickgrid/slick.core.js",
+				"bower_components/slickgrid/slick.grid.js",
+				"bower_components/slickgrid/slick.dataview.js",
+				"bower_components/slickgrid-bootstrap/bootstrap/bootstrap-slickgrid.js",
+				"bower_components/ng-js-tree/ngJsTree.js"]
+		}
+	])
+.controller("ReportBrowserCtrl", function ($scope, $timeout, service) {
+	var store = this;
+	$scope.textSearch = "";
+	
+	service.getUserReportsPerRegion().then(function(result) {	
+		$('#jtree').jstree({ 
+		'core' : {
+			'data' : result.data
+		},		
+		"plugins" : [
+			"search","types", "wholerow"
+		],
+		"ui": {
+            "select_limit": 1,
+        }
+		});
+	});
+	
+	var grid;
+	var columns = [
+			{id: "reportName", name: "Report Name", field: "reportName", width: 200},
+			{id: "userName", name: "User Name", field: "userName", width: 100}
+			// ,
+			// {id: "%", name: "% Complete", field: "percentComplete", width: 100},
+			// {id: "start", name: "Start", field: "start", width: 150},
+			// {id: "finish", name: "Finish", field: "finish", width: 150},
+			// {id: "effort-driven", name: "Effort Driven", field: "effortDriven", width: 100}
+		  ];
+	var options = {
+		enableCellNavigation: true,
+		enableColumnReorder: false,
+		editable: false,
+		autoHeight: false,
+		rowHeight: 35,
+		forceFitColumns : false
+	};
+
+	var dataFull = [];
+	$scope.createGrid = function() {		  
+		  $("#reportGrid").slickgrid({
+			columns: columns.slice(),
+			data: [],
+			slickGridOptions: {
+			  enableCellNavigation: true,
+			  enableColumnReorder: false,
+			  forceFitColumns: true,
+			  rowHeight: 35
+			}
+		  });
+	};
+	
+	// $scope.createGrid();
+	// $scope.createGrid();
+	
+	
+
+	$scope.refreshTable = function(data) {			
+		var items = []
+		angular.forEach(data.report, function(value, key) {
+			var item = {
+				id: 'id_' + key,
+				reportName: value.reportname,
+				userName: value.username
+			};
+			items.push(item);						
+		});
+		
+		console.log(items);
+		
+		
+
+		var dataView = new Slick.Data.DataView({
+            inlineFilters : true
+        });
+		
+		grid = new Slick.Grid("#reportGrid", dataView, columns, options);
+		dataView.beginUpdate();
+        dataView.setItems(items);
+        dataView.endUpdate();  	}
+	
+	$('#jtree').on("changed.jstree", function (e, data) {
+		console.log("The selected nodes are:");
+		console.log(data.selected);
+		service.getReportsByUser(data.selected).then(function(result) {
+			console.log(result.data.reports.report);
+			
+			$scope.refreshTable(result.data.reports);
+			
+			
+		});
+	 });
+	
+	$scope.search = function() {			
+		$("#jtree").jstree(true).search($scope.textSearch);
+	}
+})

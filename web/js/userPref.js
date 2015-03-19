@@ -1,9 +1,8 @@
-angular.module("mmepool", [{
+angular.module("preference", [{
     name: "webService",
     files: ["js/service.js"]
 }])
-    .controller("MmePoolCtrl", function ($scope, $ocLazyLoad, service) {
-		console.log(service);
+    .controller("UserPrefCtrl", function ($scope, $ocLazyLoad, service) {
         var store = this;
 	
 		store.regionList = service.regionList();		    

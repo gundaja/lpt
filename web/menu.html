@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="App">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="bower_components/ocLazyLoad/dist/ocLazyLoad.js"></script>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
+		
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="AppController">
+    <p>Hello {{username}}!</p>
+    <div class="navbar navbar-default ">
+			<ul class="nav navbar-nav" >
+				<li>
+					<a ui-sref="home">Home</a>
+				</li>
+				<li>
+					<a ui-sref="n">n</a>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown">a<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a ui-sref="a">a</a></li>
+						<li><a ui-sref="b">b</a></li>
+						<li><a ui-sref="c">c</a></li>
+						<li><a ui-sref="d">d</a></li>
+						<li><a ui-sref="e">e</a></li>
+						<li><a ui-sref="f">f</a></li>
+						<li><a ui-sref="g">g</a></li>
+						<li><a ui-sref="h">h</a></li>
+						<li><a ui-sref="i">i</a></li>					
+						<li><a ui-sref="j">j</a></li>
+						<li><a ui-sref="k">k</a></li>
+					</ul>
+				</li>
+				<li>
+					<a ui-sref="l">l</a>
+				</li>
+				<li>
+					<a ui-sref="m">m</a>
+				</li>
+			</ul>
+</div>
+
+  </body>
+
+</html>

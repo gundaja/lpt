@@ -1,3 +1,5 @@
+html, body { height: 100%; width: 100%; margin: 0; }
+
 h1.ng-binding{
     font-size:24px;
     color:red;
@@ -5,4 +7,69 @@ h1.ng-binding{
 
 h2{
     color:blue;
+}
+
+
+#main-content {
+	height: 90%; 
+	width: auto; 
+	padding-left: 10px; 
+	padding-right: 10px
+}
+
+.row-full-height {
+  height: 100%;
+}
+
+.col-full-height {
+  height: 100%;
+  vertical-align: middle;
+}
+
+.row-same-height {
+  display: table;
+  width: 100%;
+  /* fix overflow */
+  table-layout: fixed;
+}
+
+.centerDropdown {
+    left: auto !important;
+    right: -25% !important;
+}
+.centerDropdown:after {
+   left: auto !important;
+   right: 45% !important;
+}
+
+.dropdown-menu:before {
+  position: absolute;
+  top: -7px;
+  /*
+  left: 39px;
+  */
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+  left: auto !important;
+  right: 64.5% !important;
+}
+
+.dropdown-menu:after {
+  position: absolute;
+  top: -6px;
+  /*
+  left: 40px;
+  */
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  border-left: 6px solid transparent;
+  content: '';
+  left: auto !important;
+  right: 65% !important;
+
 }

@@ -1,48 +1,27 @@
-<div>
-
+<div id="mme-pool-form">				
 	<div class="row">
-		<div class="col-md-6">
 			<label>All MME Pools</label><br/>
-			<select ng-model="model.regionId" ng-options="m as m for m in mmePool.regionList"   multiple="multiple"
-				id="selSwitch" class="form-control"	required=""/>
-		</div>
-		
-		<div class="col-md-6">
-			<label>My MME Pools</label><br/>
-			<select ng-model="model.regionId" ng-options="m as m for m in mmePool.regionList"   multiple="multiple"
-				id="selSwitch" class="form-control"	required=""/>
-		</div>
+			<select ng-model="model.mmePoolId" ng-options="m.value as m.text for m in mmePool.mmePools"   multiple="multiple"
+				id="selSwitch" class="form-control"	required="" bs-duallistbox>
+			</select>
 	</div>
 
 	<div class="row">
-		<div class="col-md-6">
 			<label>All Markets</label><br/>
 			<select ng-model="model.marketId" ng-options="m as m for m in mmePool.marketList"   multiple="multiple"
-				id="selSwitch" class="form-control"	required=""/>
-		</div>
-		
-		<div class="col-md-6">
-			<label>My LTE Markets</label><br/>
-			<select ng-model="model.regionId" ng-options="m as m for m in mmePool.regionList"   multiple="multiple"
-				id="selSwitch" class="form-control"	required=""/>
-		</div>
-		
+				id="selSwitch" class="form-control"	required="" bs-duallistbox>
+			</select>
 	</div>
-	
+
+
 	<div class="row">
-		<div class="col-md-6">
 			<label>All Markets</label><br/>
 			<select ng-model="model.regionId" ng-options="m as m for m in mmePool.regionList"   multiple="multiple"
-				id="selSwitch" class="form-control"	required=""/>
-		</div>
-		
-		<div class="col-md-6">
-			<label>My LTE Markets for Perf Charts</label><br/>
-			<select ng-model="model.regionId" ng-options="m as m for m in mmePool.regionList"   multiple="multiple"
-				id="selSwitch" class="form-control"	required=""/>
-		</div>
+				id="selSwitch" class="form-control"	
+				required="" bs-duallistbox >
+			</select>
 	</div>
 </div>	
 
-	
+<div ng-repeat="m in mmePool.regionList" on-finish-render="ngRepeatFinished">
 

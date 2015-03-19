@@ -1,0 +1,15 @@
+
+<accordion close-others="false">
+    <accordion-group>
+            <accordion-heading>
+            <i class="fa fa-lg fa-list">&nbsp</i> News <i class="pull-right " ng-class="{'fa fa-lg fa-chevron-circle-down': isopen, 'fa fa-lg fa-chevron-circle-up': !isopen}"></i>
+            </accordion-heading>
+            <table class="table table-hover">
+                    <tr ng-repeat="n in news.news track by $index">
+                        <td>{{n.areaName}}
+                             <p style="font-size:.8em" ng-repeat="n in n.news track by $index">{{n}}</p>
+                        </td>
+                    </tr>
+            </table>
+    </accordion-group>
+</accordion>

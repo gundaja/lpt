@@ -1,9 +1,13 @@
 angular.module("home", [{
-    name: "cart",
-    files: ["js/cart.js"]
-}])
-    .controller("HomeCtrl", function ($scope, list) {
-		console.log($scope);
+    name: "webService",
+    files: ["js/service.js"]
+	}
+])
+    .controller("HomeCtrl", function ($scope, service, $injector, inform) {
         var store = this;
-        store.message = list.items;
+		
+		store.news = service.getListOfNews();
+		
+		store.reportLevels = service.getReportLevels();		
+		
 })

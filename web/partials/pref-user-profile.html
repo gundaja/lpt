@@ -1,22 +1,24 @@
 <style>
 	.row {
 		margin-left: 0px;
+		padding-bottom: 20px;
 	}
 </style>
 <div>
 	<div class="row">
 		<div class="col-md-6">
-			<label>User ID:</label><br/>
+			<label>User ID:</label><br/>				
 			<span>{{userId}}</span>
 		</div>
 		
 		<div class="col-md-6">
-			<label for="selSwitch">Region:</label>
+			<label>Region:</label>	
 			<select ng-model="model.userInfo.regionId" ng-options="m as m for m in userPref.regionList" 
-				id="selSwitch" class="form-control"	required=""/>
-			</div>
+				id="selSwitch" class="form-control"	required="">
+			</select>
 		</div>
-			
+	</div>
+	
 	<div class="row">
 		<div class="col-md-6">
 			<label>First name:</label>					
@@ -26,7 +28,8 @@
 		<div class="col-md-6">
 			<label for="selSwitch">Market</label>
 			<select ng-model="model.userInfo.marketId" ng-options="m as m for m in userPref.marketList" 
-				id="selSwitch" class="form-control"	required=""/>
+				id="selSwitch" class="form-control"	required="">
+			</select>
 		</div>
 	</div>
 	
@@ -66,9 +69,11 @@
 		<div class="col-md-6">
 			<label for="timeZone">Timezone</label>
 			<select ng-model="model.timeZone" ng-options="m as m for m in userPref.timeZone" 
-				id="selSwitch" class="form-control"	required=""/>
+				id="selSwitch" class="form-control"	required="">
+			</select>
 		</div>
 	</div>
+
 </div>
-	
+
 
