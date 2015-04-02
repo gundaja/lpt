@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83bb7b30-e5ea-4cba-817b-28ece5fc01ca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/deliswitch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/enodeb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/lpt.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart1.png" afterPath="$PROJECT_DIR$/web/static/chart1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart10.png" afterPath="$PROJECT_DIR$/web/static/chart10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart11.png" afterPath="$PROJECT_DIR$/web/static/chart11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart12.png" afterPath="$PROJECT_DIR$/web/static/chart12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart13.png" afterPath="$PROJECT_DIR$/web/static/chart13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart14.png" afterPath="$PROJECT_DIR$/web/static/chart14.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart15.png" afterPath="$PROJECT_DIR$/web/static/chart15.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart16.png" afterPath="$PROJECT_DIR$/web/static/chart16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart2.png" afterPath="$PROJECT_DIR$/web/static/chart2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart3.png" afterPath="$PROJECT_DIR$/web/static/chart3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart4.png" afterPath="$PROJECT_DIR$/web/static/chart4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart5.png" afterPath="$PROJECT_DIR$/web/static/chart5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart6.png" afterPath="$PROJECT_DIR$/web/static/chart6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart7.png" afterPath="$PROJECT_DIR$/web/static/chart7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart8.png" afterPath="$PROJECT_DIR$/web/static/chart8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/chart9.png" afterPath="$PROJECT_DIR$/web/static/chart9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/images/hawk.png" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/images/hawk.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/images/hawk.png" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/images/hawk.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/images/logo.png" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/AjaxServices.js" afterPath="$PROJECT_DIR$/web/js/AjaxServices.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/Makefile" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/about.html" afterPath="$PROJECT_DIR$/web/partials/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/app.js.orig" afterPath="$PROJECT_DIR$/web/js/app.js.orig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/app.js" afterPath="$PROJECT_DIR$/web/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/async/lib/async.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/async/lib/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/async/lib/async.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/async/lib/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/async/lib/async.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/async/lib/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/async/lib/async.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/async/lib/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/node_modules/async/lib/async.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/node_modules/async/lib/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/node-uuid/benchmark/bench.sh" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/node-uuid/benchmark/bench.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/configstore/node_modules/uuid/benchmark/bench.sh" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/configstore/node_modules/uuid/benchmark/bench.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/node-uuid/benchmark/bench.sh" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/node-uuid/benchmark/bench.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/uuid/benchmark/bench.sh" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/uuid/benchmark/bench.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-config/node_modules/optimist/test/_/bin.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-config/node_modules/optimist/test/_/bin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/rimraf/bin.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/rimraf/bin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-server/node_modules/ecstatic/node_modules/optimist/test/_/bin.js" afterPath="$PROJECT_DIR$/node_modules/http-server/node_modules/ecstatic/node_modules/optimist/test/_/bin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-server/node_modules/optimist/test/_/bin.js" afterPath="$PROJECT_DIR$/node_modules/http-server/node_modules/optimist/test/_/bin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/optimist/test/_/bin.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/optimist/test/_/bin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/bin/bower" afterPath="$PROJECT_DIR$/node_modules/bower/bin/bower" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/browser.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/test/browser.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/test/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/bin/builder.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/bin/builder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/chart.js" afterPath="$PROJECT_DIR$/web/js/chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/has-ansi/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/has-ansi/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/strip-ansi/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/strip-ansi/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/supports-color/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/supports-color/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/inquirer/node_modules/readline2/node_modules/strip-ansi/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/inquirer/node_modules/readline2/node_modules/strip-ansi/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/has-ansi/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/has-ansi/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/strip-ansi/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/strip-ansi/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/supports-color/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/supports-color/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/configstore/node_modules/user-home/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/configstore/node_modules/user-home/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/inquirer/node_modules/readline2/node_modules/strip-ansi/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/inquirer/node_modules/readline2/node_modules/strip-ansi/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/os-name/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/os-name/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/os-name/node_modules/osx-release/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/os-name/node_modules/osx-release/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/opn/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/opn/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/user-home/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/user-home/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/latest-version/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/latest-version/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/string-length/node_modules/strip-ansi/cli.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/string-length/node_modules/strip-ansi/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/client.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/test/client.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/test/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/lib/appenders/clustered.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/lib/appenders/clustered.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/test/clusteredAppender-test.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/test/clusteredAppender-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/mkdirp/bin/cmd.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/mkdirp/bin/cmd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/mkdirp/bin/cmd.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/mkdirp/bin/cmd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/common.js" afterPath="$PROJECT_DIR$/web/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/crypto.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/crypto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/test/crypto.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/test/crypto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/bin/decompress-zip" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/bin/decompress-zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/socket.io/node_modules/redis/diff_multi_bench_output.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/socket.io/node_modules/redis/diff_multi_bench_output.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/directives.js" afterPath="$PROJECT_DIR$/web/js/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-server/node_modules/ecstatic/lib/ecstatic.js" afterPath="$PROJECT_DIR$/node_modules/http-server/node_modules/ecstatic/lib/ecstatic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-server/node_modules/.bin/ecstatic" afterPath="$PROJECT_DIR$/node_modules/http-server/node_modules/.bin/ecstatic" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/bin/elementexplorer.js" afterPath="$PROJECT_DIR$/node_modules/protractor/bin/elementexplorer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/lib/appenders/fileSync.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/lib/appenders/fileSync.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/test/fileSyncAppender-test.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/test/fileSyncAppender-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/inquirer/node_modules/cli-color/bin/generate-color-images" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/inquirer/node_modules/cli-color/bin/generate-color-images" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/inquirer/node_modules/cli-color/bin/generate-color-images" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/inquirer/node_modules/cli-color/bin/generate-color-images" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/shelljs/scripts/generate-docs.js" afterPath="$PROJECT_DIR$/node_modules/shelljs/scripts/generate-docs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/scripts/generate-docs.sh" afterPath="$PROJECT_DIR$/node_modules/protractor/scripts/generate-docs.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url/node_modules/npmconf/node_modules/uid-number/get-uid-gid.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url/node_modules/npmconf/node_modules/uid-number/get-uid-gid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/.bin/has-ansi" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/.bin/has-ansi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/.bin/has-ansi" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/.bin/has-ansi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/home-news.html" afterPath="$PROJECT_DIR$/web/partials/home-news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/home-perf-chart.html" afterPath="$PROJECT_DIR$/web/partials/home-perf-chart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home.html" afterPath="$PROJECT_DIR$/web/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/home.html" afterPath="$PROJECT_DIR$/web/partials/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/home.js" afterPath="$PROJECT_DIR$/web/js/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/http-server" afterPath="$PROJECT_DIR$/node_modules/.bin/http-server" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-server/bin/http-server" afterPath="$PROJECT_DIR$/node_modules/http-server/bin/http-server" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url/node_modules/npmconf/node_modules/config-chain/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/latest-version/node_modules/package-json/node_modules/registry-url/node_modules/npmconf/node_modules/config-chain/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index1.html" afterPath="$PROJECT_DIR$/web/index1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/lib/init.js" afterPath="$PROJECT_DIR$/node_modules/karma/lib/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/configstore/node_modules/js-yaml/bin/js-yaml.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/configstore/node_modules/js-yaml/bin/js-yaml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/bin/js-yaml.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/js-yaml/bin/js-yaml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/http-signature/node_modules/ctype/tools/jsl.conf" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/http-signature/node_modules/ctype/tools/jsl.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/examples/json.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/examples/json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/http-signature/node_modules/ctype/tools/jsstyle" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/http-signature/node_modules/ctype/tools/jsstyle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/bin/karma" afterPath="$PROJECT_DIR$/node_modules/karma/bin/karma" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/.bin/latest-version" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/.bin/latest-version" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/examples/leaves.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/examples/leaves.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu.html" afterPath="$PROJECT_DIR$/web/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/mkdirp" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/mkdirp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/.bin/mkdirp" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/.bin/mkdirp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/mmepool.js" afterPath="$PROJECT_DIR$/web/js/mmepool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/nopt/examples/my-program.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/nopt/examples/my-program.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/touch/node_modules/nopt/examples/my-program.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/touch/node_modules/nopt/examples/my-program.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/nopt/examples/my-program.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/nopt/examples/my-program.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/.bin/ncp" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/.bin/ncp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/ncp/bin/ncp" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/ncp/bin/ncp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/examples/negative.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/examples/negative.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/.bin/node-http-proxy" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/.bin/node-http-proxy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/bin/node-http-proxy" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/bin/node-http-proxy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/nopt/bin/nopt.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/nopt/bin/nopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/touch/node_modules/nopt/bin/nopt.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/touch/node_modules/nopt/bin/nopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/nopt/bin/nopt.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/nopt/bin/nopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/nopt" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/nopt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/.bin/nopt" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/.bin/nopt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/touch/node_modules/.bin/nopt" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/touch/node_modules/.bin/nopt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-server/node_modules/opener/opener.js" afterPath="$PROJECT_DIR$/node_modules/http-server/node_modules/opener/opener.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-server/node_modules/.bin/opener" afterPath="$PROJECT_DIR$/node_modules/http-server/node_modules/.bin/opener" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/opn" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/opn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/.bin/os-name" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/.bin/os-name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/os-name/node_modules/.bin/osx-release" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/os-name/node_modules/.bin/osx-release" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/package.json" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/hawk/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/package.json" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/package.json" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/connect/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/connect/node_modules/qs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/lib/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/lib/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/test/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/partial-home-list.html" afterPath="$PROJECT_DIR$/web/partials/partial-home-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/partial-home.html" afterPath="$PROJECT_DIR$/web/partials/partial-home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/socket.io/node_modules/redis/benches/stress/speed/plot" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/socket.io/node_modules/redis/benches/stress/speed/plot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/pref-mme-pool.html" afterPath="$PROJECT_DIR$/web/partials/pref-mme-pool.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/pref-user-profile.html" afterPath="$PROJECT_DIR$/web/partials/pref-user-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/pref-user-profile1.html" afterPath="$PROJECT_DIR$/web/partials/pref-user-profile1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/pref.html" afterPath="$PROJECT_DIR$/web/partials/pref.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/scripts/print_logs.sh" afterPath="$PROJECT_DIR$/node_modules/protractor/scripts/print_logs.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/bin/protractor" afterPath="$PROJECT_DIR$/node_modules/protractor/bin/protractor" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/release.sh" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/release.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/report.json.orig" afterPath="$PROJECT_DIR$/web/static/report.json.orig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/report.json" afterPath="$PROJECT_DIR$/web/static/report.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/static/report1.json" afterPath="$PROJECT_DIR$/web/static/report1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/reportBrowser.html" afterPath="$PROJECT_DIR$/web/partials/reportBrowser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/reportBrowser.js.orig" afterPath="$PROJECT_DIR$/web/js/reportBrowser.js.orig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/reportBrowser.js" afterPath="$PROJECT_DIR$/web/js/reportBrowser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/rimraf" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/rimraf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/test/core/run-single" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/test/core/run-single" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/shelljs/scripts/run-tests.js" afterPath="$PROJECT_DIR$/node_modules/shelljs/scripts/run-tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/run.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/run.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/test/core/run" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/http-proxy/test/core/run" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/socket.io/node_modules/redis/benches/stress/pubsub/run" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/socket.io/node_modules/redis/benches/stress/pubsub/run" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/socket.io/node_modules/redis/benches/stress/rpushblpop/run" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/socket.io/node_modules/redis/benches/stress/rpushblpop/run" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/sah-col1.html" afterPath="$PROJECT_DIR$/web/partials/sah-col1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/sah-col2.html" afterPath="$PROJECT_DIR$/web/partials/sah-col2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/sah-mobile.html" afterPath="$PROJECT_DIR$/web/partials/sah-mobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/sah-mobile.js" afterPath="$PROJECT_DIR$/web/js/sah-mobile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/sah.html" afterPath="$PROJECT_DIR$/web/partials/sah.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/sah.js" afterPath="$PROJECT_DIR$/web/js/sah.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/scripts/sauce_connect_setup.sh" afterPath="$PROJECT_DIR$/node_modules/protractor/scripts/sauce_connect_setup.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/partials/scanTrend.html" afterPath="$PROJECT_DIR$/web/partials/scanTrend.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/scanTrend.js" afterPath="$PROJECT_DIR$/web/js/scanTrend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/semver/bin/semver" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/semver/bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/node_modules/.bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/node_modules/semver/bin/semver" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/log4js/node_modules/semver/bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/server.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/service.js" afterPath="$PROJECT_DIR$/web/js/service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/shjs" afterPath="$PROJECT_DIR$/node_modules/.bin/shjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/shelljs/bin/shjs" afterPath="$PROJECT_DIR$/node_modules/shelljs/bin/shjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/store.js" afterPath="$PROJECT_DIR$/web/js/store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/lib/stringify.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/lib/stringify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/examples/stringify.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/decompress-zip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/examples/stringify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/lib/stringify.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/lib/stringify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/test/stringify.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/test/stringify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/.bin/strip-ansi" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/.bin/strip-ansi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/inquirer/node_modules/readline2/node_modules/.bin/strip-ansi" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/inquirer/node_modules/readline2/node_modules/.bin/strip-ansi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/.bin/strip-ansi" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/.bin/strip-ansi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/inquirer/node_modules/readline2/node_modules/.bin/strip-ansi" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/inquirer/node_modules/readline2/node_modules/.bin/strip-ansi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/string-length/node_modules/.bin/strip-ansi" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/string-length/node_modules/.bin/strip-ansi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/style.css" afterPath="$PROJECT_DIR$/web/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/.bin/supports-color" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/chalk/node_modules/.bin/supports-color" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/.bin/supports-color" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/chalk/node_modules/.bin/supports-color" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/tmp/test-all.sh" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/tmp/test-all.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/scripts/test.js" afterPath="$PROJECT_DIR$/node_modules/protractor/scripts/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/useragent/bin/testfiles.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/useragent/bin/testfiles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/scripts/testonsauce.sh" afterPath="$PROJECT_DIR$/node_modules/protractor/scripts/testonsauce.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/scripts/testserver.sh" afterPath="$PROJECT_DIR$/node_modules/protractor/scripts/testserver.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/inquirer/node_modules/cli-color/test/__playground/throbber.formatted.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/inquirer/node_modules/cli-color/test/__playground/throbber.formatted.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/inquirer/node_modules/cli-color/test/__playground/throbber.formatted.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/inquirer/node_modules/cli-color/test/__playground/throbber.formatted.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/inquirer/node_modules/cli-color/test/__playground/throbber.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/inquirer/node_modules/cli-color/test/__playground/throbber.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/inquirer/node_modules/cli-color/test/__playground/throbber.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/inquirer/node_modules/cli-color/test/__playground/throbber.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/karma/node_modules/useragent/bin/update.js" afterPath="$PROJECT_DIR$/node_modules/karma/node_modules/useragent/bin/update.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/configstore/node_modules/.bin/user-home" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/insight/node_modules/configstore/node_modules/.bin/user-home" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/.bin/user-home" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/.bin/user-home" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/userPref.js" afterPath="$PROJECT_DIR$/web/js/userPref.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/qs/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/hawk/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/qs/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/.bin/uuid" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/.bin/uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/node-uuid/bin/uuid" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/request/node_modules/node-uuid/bin/uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/scripts/wait_for_browser_provider.sh" afterPath="$PROJECT_DIR$/node_modules/protractor/scripts/wait_for_browser_provider.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/testapp/scripts/web-server.js" afterPath="$PROJECT_DIR$/node_modules/protractor/testapp/scripts/web-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/bin/webdriver-manager" afterPath="$PROJECT_DIR$/node_modules/protractor/bin/webdriver-manager" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/which" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/.bin/which" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/which/bin/which" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/which/bin/which" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/node_modules/opn/xdg-open" afterPath="$PROJECT_DIR$/node_modules/bower/node_modules/opn/xdg-open" />
+    </list>
+    <ignored path="lpt.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="lpt" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="89" selection-start-line="0" selection-start-column="89" selection-end-line="0" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sah-mobile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/sah-mobile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.28">
+              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sah-mobile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/partials/sah-mobile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.527273">
+              <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#select#0;n#div#3;n#div#0;n#slick#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#slick#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#label#1;n#div#1;n#div#2;n#slick#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#label#1;n#div#2;n#div#2;n#slick#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#slick#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43130228">
+              <caret line="87" column="62" selection-start-line="87" selection-start-column="62" selection-end-line="87" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/js/service.js" />
+        <option value="$PROJECT_DIR$/web/js/sah-mobile.js" />
+        <option value="$PROJECT_DIR$/web/partials/sah-mobile.html" />
+        <option value="$PROJECT_DIR$/web/js/app.js" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2218" />
+    <option name="y" value="52" />
+    <option name="width" value="1400" />
+    <option name="height" value="999" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lpt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lpt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lpt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lpt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lpt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lpt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lpt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lpt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lpt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/cmd/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83bb7b30-e5ea-4cba-817b-28ece5fc01ca" name="Default" comment="" />
+      <created>1427306408739</created>
+      <option name="number" value="Default" />
+      <updated>1427306408739</updated>
+      <workItem from="1427306411054" duration="17562000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17562000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2218" y="52" width="1400" height="999" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/js/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.28">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/sah-mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/partials/sah-mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.527273">
+          <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#3;n#div#0;n#slick#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#slick#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#1;n#div#1;n#div#2;n#slick#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#1;n#div#2;n#div#2;n#slick#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#slick#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="89" selection-start-line="0" selection-start-column="89" selection-end-line="0" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43130228">
+          <caret line="87" column="62" selection-start-line="87" selection-start-column="62" selection-end-line="87" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

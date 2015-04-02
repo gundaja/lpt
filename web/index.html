@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,101 +11,125 @@
     <title>LPT Performance Reporting</title>
 
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="bower_components/angular-inform/dist/angular-inform.min.css" rel="stylesheet">
+    <link href="bower_components/angular-inform/dist/angular-inform.min.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	
-	<script type="text/javascript" src="bower_components/jquery/jquery.js"></script>		
-	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="bower_components/jquery/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
     <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-	<script type="text/javascript" src="bower_components/ocLazyLoad/dist/ocLazyLoad.js"></script>
+    <script type="text/javascript" src="bower_components/ocLazyLoad/dist/ocLazyLoad.js"></script>
 
-  </head>
+</head>
 
-  <body ng-app="lte-web">
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+<body ng-app="lte-web">
+<header role="banner" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container"
+                    type="button" class="navbar-toggle pull-left"><span class="icon-bar"></span><span
+                    class="icon-bar"></span><span class="icon-bar"></span></button>
             <a class="navbar-brand" href="#">{{appType}} {{appName}}</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-				<li><a ui-sref="home">Home</a></li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">Reports<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a ui-sref="sah">Structure Ad Hoc</a></li>
-							<li><a ui-sref="sah-mobile">Structure Ad Hoc (Mobile)</a></li>
-							<li><a ui-sref="reportBrowser">Report Browser</a></li>
-							<li><a ui-sref="scan">Hist Scan Trend</a></li>
-						</ul>
-					</li>
-					
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">Custom Reporting<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a ui-sref="#">Formula Editor</a></li>
-							<li><a ui-sref="#">Report Builder</a></li>				
-						</ul>
-					</li>
-					
-					<li class="dropdown ">
-						<a class="dropdown-toggle" data-toggle="dropdown">Scheduling<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a ui-sref="#">Report Builder</a></li>
-							<li><a ui-sref="#">My Scheduled Reports</a></li>
-							<li><a ui-sref="#">Vuew Other Schedules</a></li>
-							
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">My Preferences<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a ui-sref="userprofile">My Profile</a></li>
-							<li><a ui-sref="cellgroups">My Cellgroups</a></li>
-						</ul>
-					</li>	
-			</ul>
-		
-		
-			<ul class="nav navbar-nav navbar-right">
-			  <li><a ui-sref="about">About</a></li>
-			</ul>
+        </div>
+        <div class="navbar-default side-collapse in">
+            <nav role="navigation" class="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a ui-sref="home">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Reports<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a ui-sref="sah">Structure Ad Hoc</a></li>
+                            <li><a ui-sref="sah-mobile">Structure Ad Hoc (Mobile)</a></li>
+                            <li><a ui-sref="reportBrowser">Report Browser</a></li>
+                            <li><a ui-sref="scan">Hist Scan Trend</a></li>
+                        </ul>
+                    </li>
 
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
-    
-<!--	
-	<div inform class="inform-shadow inform-fixed"></div>
-	-->
-	
-	<div id="main-content" >
-		<div ui-view class="row-full-height"></div>		
-	</div>
-	
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Custom Reporting<span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a ui-sref="#">Formula Editor</a></li>
+                            <li><a ui-sref="#">Report Builder</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown ">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Scheduling<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a ui-sref="#">Report Builder</a></li>
+                            <li><a ui-sref="#">My Scheduled Reports</a></li>
+                            <li><a ui-sref="#">Vuew Other Schedules</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">My Preferences<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a ui-sref="userprofile">My Profile</a></li>
+                            <li><a ui-sref="cellgroups">My Cellgroups</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div inform class="inform-shadow inform-fixed"></div>
+
+<div id="main-content">
+    <div ui-view class="row-full-height"></div>
+</div>
 
 
-    <!-- Bootstrap core JavaScript -->
-	<!--
-	<script type="text/javascript" src="js/lib/ui-bootstrap-custom-tpls-0.9.0.js"></script>
-	-->
-	
-	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>	
-	<script type="text/javascript" src="bower_components/angular-ui-bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>	
-	
+<div  style="position: absolute; bottom:3px; right:3px; padding-right: 40px;" >
+    <div class="btn-group dropup">
+        <button class="btn bt-default" data-toggle="dropdown" data-toggle="dropdown">LTE Watcher Notifications
+            <span class="badge badge-info">4</span></button>
 
-	<script src="bower_components/angular-inform/dist/angular-inform.min.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/directives.js"></script>
-	
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  </body>
+            <ul class="dropdown-menu pull-left" role="menu" >
+                <li><a href="#">eNodeB 10001 Alarm triggered</a></li>
+                <li class="divider"></li>
+                <li><a href="#">eNodeB 20001 alarm</a></li>
+                <li class="divider"></li>
+                <li><a href="#">eNodeB 30001 alarm</a></li>
+                <li class="divider"></li>
+                <li><a href="#">eNodeB 40001 alarm</a></li>
+            </ul>
+    </div>
+</div>
+
+
+
+<!-- Bootstrap core JavaScript -->
+<!--
+<script type="text/javascript" src="js/lib/ui-bootstrap-custom-tpls-0.9.0.js"></script>
+-->
+
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-ui-bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
+
+
+<script type="text/javascript" src="bower_components/angular-theme-spinner/dist/angular-theme-spinner.min.js"></script>
+
+<script src="bower_components/angular-inform/dist/angular-inform.min.js"></script>
+<script src="bower_components/bigfoot/dist/bigfoot.js"></script>
+
+
+<script src="js/app.js"></script>
+<script src="js/directives.js"></script>
+<script>
+    $(document).ready(function () {
+        var sideslider = $('[data-toggle=collapse-side]');
+        var sel = sideslider.attr('data-target');
+        var sel2 = sideslider.attr('data-target-2');
+        sideslider.click(function (event) {
+            $(sel).toggleClass('in');
+            $(sel2).toggleClass('out');
+        });
+    });
+</script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+</body>
 </html>

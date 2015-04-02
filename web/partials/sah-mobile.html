@@ -2,186 +2,339 @@
     .slider {
         min-height: 250px;
     }
-	
-	.divslider {
-		padding: 40px;	
-		
-	}
-	
-	.divselect {
-		min-height: 250px; 
-	}
-	
-	.center {
-		padding-top: 20px;
-		margin-left: auto;
-		margin-right: auto;
-		width: 70%;
-	}
-	
-	
-	.floating-label-form-group input, .floating-label-form-group textarea {
-    position: relative;
-}
-.floating-label-form-group label {
-    display: block;
-    position: absolute;
-    top: 2em;
-    opacity: 0;
-    z-index: 0;
-    font-size: 0.85em;
-    line-height: 1.764705882em;
-    vertical-align: middle;
-    vertical-align: baseline;
-    margin: 0;
-    -webkit-transition: top 0.5s ease, opacity 0.5s ease;
-    -moz-transition: top 0.5s ease, opacity 0.5s ease;
-    -ms-transition: top 0.5s ease, opacity 0.5s ease;
-    transition: top 0.5s ease, opacity 0.5s ease;
-}
-.floating-label-form-group-with-value label {
-    opacity: 1;
-    position: absolute;
-    padding-left: 12px;
-}
-.floating-label-form-group-with-value label.left {
-    top: 0;
-    left: -25px;
-}
-.floating-label-form-group-with-value label.right {
-    top: 0;
-    right: -25px;
-}
-.floating-label-form-group-with-value label.top {
-    top: -25px;
-}
-.floating-label-form-group-with-value label.bottom {
-    bottom: -25px;
-    top: auto;
-}
 
-/* DEMO STYLES */
+    .divslider {
+        padding: 40px;
 
-form{
-    margin-top: 25px;
-}
+    }
+
+    .divselect {
+        min-height: 150px;
+    }
+
+    .center {
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+
+    .panel-default > .panel-heading {
+        background-color: #f5f5f5;
+        border-color: #ddd;
+        color: #333;
+    }
+
+    .panel-heading {
+        border-radius: 0;
+    }
+
+    .panel-heading {
+        border-bottom: 1px solid transparent;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        padding: 10px 15px;
+    }
+
+    .data-row .data-name {
+        /**
+          background-color: #ececec;
+          **/
+        color: #b9b9b9;
+        font-size: 0.9em;
+        vertical-align: top;
+    }
+
+    .summary li {
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .truncate {
+        width: 250px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .summary textarea, input {
+        outline: 0;
+        border: 0px none;
+        background: none;
+        /** ellipsis **/
+        white-space: normal;
+        width: 250px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .data-row .data-name, .data-row .data-value {
+        display: inline-block;
+        padding: 5px;
+        vertical-align: middle;
+    }
 </style>
 
 <div class="content">
-	<div class="panel panel-default">
-	<slick class="slider single-item " dots="true" infinite="true" touch-move=true speed="100" current-index="index" autoplay="false" responsive="breakpoints" >
-		<div class="divslider">
-			<div>
-				<label>Report Level</label>
-				<select ng-model="model.reportLevel" ng-options="m as m for m in s.reportLevels" 
-				id="selSwitch" class="form-control" required=""/>
-				</select>
-			</div>
-			
-			<div>
-				<label>MME Pool</label>
-				<select ng-model="model.mmePool" ng-options="m.value as m.text for m in s.mmePools"  
-				id="selSwitch" class="form-control divselect" required="" multiple="multiple">
-				</select>
-			</div>
-			
-			<div>
-				<label>MME/SGW/PGW</label>
-				<select ng-model="model.mmePool" ng-options="m.value as m.text for m in s.mmePools"  
-				id="selSwitch" class="form-control divselect" required="" multiple="multiple">
-				</select>
-			</div>
-		</div>
+    <div class="panel panel-default">
+        <slick class="slider single-item " dots="true" infinite="true" touch-move=true speed="100" current-index="index"
+               autoplay="false" responsive="breakpoints">
+            <div class="divslider">
+                <div>
+                    <label>Report Level</label>
+                    <select ng-model="model.reportLevel" ng-options="m as m for m in s.reportLevels"
+                            id="selSwitch" class="form-control" required=""/>
+                    </select>
+                </div>
 
-		<div class="divslider">
-			<div>
-				<label>Region</label>
-				<select ng-model="model.region" ng-options="m as m for m in s.regionList" 
-				id="selSwitch" class="form-control divselect" required="" multiple="multiple"/>
-				</select>
-			</div>
-			
-			<div>
-				<label>Market</label>
-				<select ng-model="model.market" ng-options="m as m for m in s.marketList" 
-				id="selSwitch" class="form-control divselect" required="" multiple="multiple"/>
-				</select>
-			</div>
-		</div>
-		
-		
-		<div class="divslider">
-			<div>
-				<label>eNodeB</label>
-				<select ng-model="model.region" ng-options="m as m for m in s.regionList" 
-				id="selSwitch" class="form-control divselect" required="" multiple="multiple"/>
-				</select>
-				
-				<div class="control-group">				  
-				  <div class="controls">
-					<label class="radio" for="radios-0">
-					  <input type="radio" name="radios" id="radios-0" value="Scrolltable table" checked="checked">
-					  Scrollable table
-					</label>
-					<label class="radio" for="radios-1">
-					  <input type="radio" name="radios" id="radios-1" value="Drill-down">
-					  Drill-down
-					</label>
-					
-					<href><a>Schedule this report</a></href>
-				  </div>
-				</div>
+                <div>
+                    <label>MME Pool</label>
+                    <select ng-model="model.mmePool" ng-options="m.value as m.text for m in s.mmePools"
+                            id="selSwitch" class="form-control divselect" required="" multiple="multiple"
+                            ng-change="getMmeSgwPgw()">
+                    </select>
+                </div>
 
-			</div>						
-		</div>		
-		
-		<!-- Summary div -->
-		<div class="divslider">
-				<!-- TODO: Convert this into a directive -->
-				<form name="form">
-					<form-check ng-model="model.reportLevel"  id="reportLabel" label="Report Level"></form-check>
-					<form-check ng-model="model.mmePool" id="mmePool" label="MME Pool"></form-check>
-					<form-check ng-model="model.market" id="market" label="Market"></form-check>
-					
-					<div class="form-group" ng-class="{error: form.reportLevel.$invalid}">
-						<label for="reportLevel">Report Level</label>
-						<input type="text" id="reportLevel" name="reportLevel" ng-model="model.reportLevel" disabled required>
-						<span ng-show="form.reportLevel.$error.required" class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
-						<span ng-show="form.reportLevel.$valid" class="help-inline glyphicon glyphicon-ok text-success"></span>					
-					</div>
-					
-					<div class="control-group" ng-class="{error: form.mmePool.$invalid}">						
-						<label>MME Pool</label>
-						<input type="text" name="mmePool" ng-model="model.mmePool" disabled required>
-						<span ng-show="form.mmePool.$error.required" class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
-						<span ng-show="form.mmePool.$valid" class="help-inline glyphicon glyphicon-ok text-success"></span>
+                <div>
+                    <label>MME/SGW/PGW</label>
+                    <select ng-model="model.mmeSgwPgws" ng-options="m as m for m in s.mmeSgwPgws"
+                            id="selSwitch" class="form-control divselect" required="" multiple="multiple">
+                    </select>
+                </div>
 
-					</div>				
-					
-					<div class="control-group" ng-class="{error: form.market.$invalid}">
-						<label>Market</label>
-						<input type="text" name="market" ng-model="model.market" disabled required>
-						<span ng-show="form.market.$error.required" class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
-						<span ng-show="form.market.$valid" class="help-inline glyphicon glyphicon-ok text-success"></span>
-					</div>				
+                <div>
+                    <label>Cell Group</label>
+                    <select style="height: 50px" ng-model="model.cg" ng-options="m as m for m in s.cellGroups"
+                            id="selSwitch" class="form-control divselect" required="" multiple="multiple"/>
+                    </select>
+                </div>
+            </div>
 
-				</form>
-	
-			</div>						
-		</div>		
+            <div class="divslider">
+                <div>
+                    <label>Region</label>
+                    <select ng-init="model.region = [s.regionList[0]]" ng-model="model.region"
+                            ng-options="m as m for m in s.regionList"
+                            id="selSwitch" class="form-control divselect" required="" multiple="multiple"/>
+                    </select>
+                </div>
 
-	</slick>
-	</div>
-	
-	<div class="row center" >			
-		<div class="col-md-6">
-			<button class='btn btn-default btn-block'>Submit</button>
-		</div>
-		
-		<div class="col-md-4">
-			<button class='btn btn-default btn-block'>Reset</button>
-		</div>
-				 
-	</div>			
+                <div>
+                    <label>Market</label>
+                    <select ng-model="model.market" ng-change="getEnodeB()" ng-options="m as m for m in s.marketList"
+                            id="selSwitch" class="form-control divselect" required="" multiple="multiple"/>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="divslider">
+                <div >
+                    <label>eNodeB</label>
+                    <select ng-model="model.eNodeB" ng-options="m.description as m.description for m in s.eNodeBs"
+                            id="selSwitch" class="form-control divselect" required="" multiple="multiple" style="height:350px"/>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <!--
+                    <label class="btn btn-default" ng-model="checkModel.left" btn-checkbox>1</label>
+                    <label class="btn btn-default" ng-model="checkModel.middle" btn-checkbox>2</label>
+                    <label class="btn btn-default" ng-model="checkModel.right" btn-checkbox>3</label>
+                    -->
+
+                    <label>EUTranCells</label>
+                    <label ng-repeat="i in s.EUTranCells">
+                        <input ng-model="model.eu[i]" ng-init="model.eu[i]=true" type="checkbox" checklist-value="true"
+                               style="width: 20px;">
+                        {{i}}
+                    </label>
+                </div>
+
+                <div>
+                    <label>Carriers</label>
+                    <label ng-repeat="i in s.carriers">
+                        <input ng-change="updateCarrier()"  ng-model="model.carrier[i]" ng-init="model.carrier[i]=true" type="checkbox"
+                               checklist-value="true"
+                               style="width: 20px;"> {{i}}
+                    </label>
+                </div>
+
+                <div class="control-group">
+                    <div class="controls">
+                        <label class="radio" for="radios-0">
+                            <input type="radio" name="radios" id="radios-0" value="Scrolltable table"
+                                   checked="checked">
+                            Scrollable table
+                        </label>
+                        <label class="radio" for="radios-1">
+                            <input type="radio" name="radios" id="radios-1" value="Drill-down">
+                            Drill-down
+                        </label>
+
+                        <href><a>Schedule this report</a></href>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divslider">
+                <div>
+                    <label>Report Content</label>
+                    <select ng-init="model.reportContent = [s.reportContents[0]]" ng-model="model.reportContent"
+                            ng-options="m as m for m in s.reportContents"
+                            id="selSwitch" class="form-control divselect" required="" multiple="multiple"/>
+                    </select>
+                    <div class="control-group">
+                        <div class="controls">
+                            <label class="radio" for="radios-0">
+                                <input type="radio" name="radios" id="radios-0" value="Include Raw Pegs"
+                                       checked="checked">
+                                Include Raw
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Summary div -->
+            <div class="divslider">
+                <h3>Summary</h3>
+
+                <form name="form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-unstyled list-info-sidebar bottom-30px summary">
+                                <li class="data-row">
+                                    <span ng-show="form.reportLevel.$error.required"
+                                          class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
+                                    <span ng-show="form.reportLevel.$valid"
+                                          class="help-inline glyphicon glyphicon-ok text-success"></span>
+
+                                    <div class="data-name">Report Level</div>
+                                    <input class="data-value" type="text" id="reportLevel" name="reportLevel"
+                                           ng-model="model.reportLevel" disabled required>
+                                </li>
+
+                                <li class="data-row">
+                                    <span ng-show="form.mmePool.$error.required"
+                                          class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
+                                    <span ng-show="form.mmePool.$valid"
+                                          class="help-inline glyphicon glyphicon-ok text-success"></span>
+
+                                    <div class="data-name">MME Pool</div>
+                                    <input class="data-value" type="text" id="mmePool" name="mmePool"
+                                           ng-model="model.mmePool" disabled required>
+                                </li>
+
+                                <li class="data-row">
+                                    <span ng-show="form.mmeSgwPgws.$error.required"
+                                          class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
+                                    <span ng-show="form.mmeSgwPgws.$valid"
+                                          class="help-inline glyphicon glyphicon-ok text-success"></span>
+
+                                    <div class="data-name">MME/SGW/PGW</div>
+                                    <input class="data-value" type="text" id="mmeSgwPgws" name="mmeSgwPgws"
+                                           ng-model="model.mmeSgwPgws" disabled required>
+                                </li>
+
+                                <li class="data-row">
+                                    <span ng-show="form.cg.$error.required"
+                                          class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
+                                    <span ng-show="form.cg.$valid"
+                                          class="help-inline glyphicon glyphicon-ok text-success"></span>
+
+                                    <div class="data-name">Cell Group</div>
+                                    <input class="data-value" type="text" id="cg" name="cg"
+                                           ng-model="model.cg" disabled required>
+                                </li>
+
+                                <li class="data-row">
+                                    <span ng-show="form.eNodeB.$error.required"
+                                          class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
+                                    <span ng-show="form.eNodeB.$valid"
+                                          class="help-inline glyphicon glyphicon-ok text-success"></span>
+
+                                    <div class="data-name">eNode B</div>
+                                    <input class="data-value" type="text" id="eNodeB" name="eNodeB"
+                                           ng-model="model.eNodeB" disabled required>
+                                </li>
+
+                                <li class="data-row">
+                                    <span ng-show="form.eu.$error.required"
+                                          class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
+                                    <span ng-show="form.eu.$valid"
+                                          class="help-inline glyphicon glyphicon-ok text-success"></span>
+
+                                    <div class="data-name">EUTranCell</div>
+                                    <input class="data-value" type="text" id="eu" name="eu"
+                                           ng-model="model.eu" disabled required>
+                                </li>
+
+                                <li class="data-row">
+                                    <span ng-show="form.carrier.$error.required"
+                                          class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
+                                    <span ng-show="form.carrier.$valid"
+                                          class="help-inline glyphicon glyphicon-ok text-success"></span>
+
+                                    <div class="data-name">Carriers</div>
+                                    <input class="data-value" type="text" id="carrier" name="carrier"
+                                           ng-model="model.carrier" disabled required>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-6">
+                            <ul class="list-unstyled list-info-sidebar bottom-30px summary">
+                                <li class="data-row">
+                                    <span ng-show="form.mmePool.$error.required"
+                                          class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
+                                    <span ng-show="form.mmePool.$valid"
+                                          class="help-inline glyphicon glyphicon-ok text-success"></span>
+
+                                    <div class="data-name">MME/SGW/PGW</div>
+                                    <div class="data-value">{{model.mmePool}}</div>
+                                    <input class="data-value" type="text" id="eNodeB" name="eNodeB"
+                                           ng-model="model.eNodeB" disabled required>
+                                </li>
+
+                                <li class="data-row">
+                                    <span ng-show="form.eNodeB.$error.required"
+                                          class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
+                                    <span ng-show="form.eNodeB.$valid"
+                                          class="help-inline glyphicon glyphicon-ok text-success"></span>
+
+                                    <div class="data-name">Cell Group</div>
+                                    <input class="data-value" type="text" id="eNodeB" name="eNodeB"
+                                           ng-model="model.eNodeB" disabled required>
+                                </li>
+
+
+                                <li class="data-row">
+                                    <span ng-show="form.reportContent.$error.required"
+                                          class="help-inline glyphicon glyphicon-exclamation-sign text-danger"></span>
+                                    <span ng-show="form.reportContent.$valid"
+                                          class="help-inline glyphicon glyphicon-ok text-success"></span>
+
+                                    <div class="data-name">Report Content</div>
+                                    <input class="data-value" type="text" id="reportContent" name="reportContent"
+                                           ng-model="model.reportContent" disabled required>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="row center">
+                    <button style="width: 50%" class='btn btn-default btn-block' ng-click="submitForm()">Submit</button>
+                </div>
+
+            </div>
+    </div>
+
+    </slick>
+</div>
+
+
 </div>
 

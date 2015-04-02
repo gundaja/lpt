@@ -27,7 +27,9 @@
     "angular-inform":"",
     "ng-js-tree":"",
     "slickgrid-bootstrap": "",
-    "angular-ui-grid": ""
+    "angular-ui-grid": "",
+    "angular-theme-spinner":"",
+    "bigfoot":""
   }
 }
 

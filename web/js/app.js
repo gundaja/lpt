@@ -4,7 +4,7 @@ app.run(
 		function ($rootScope, $state, $stateParams) {
 			$rootScope.userId = "gundaja";
 			$rootScope.appName = "LTE Performance Tool";
-			$rootScope.appType = "ALU";
+			$rootScope.appType = "Ericcson";
 			$rootScope.currentDate = new Date();
 			// It's very handy to add references to $state and $stateParams to the $rootScope
 			// so that you can access them from any scope within your applications.For example,
@@ -87,11 +87,11 @@ app.run(
       /* default time to live for each notification */
       ttl: 2000,
       /* default type of notification */
-      type: 'info'
+      type: 'info',
+	  html: true
     };
 
     informProvider.defaults(myDefaults);
-	
 
 
   })

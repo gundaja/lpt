@@ -1,0 +1,3530 @@
+[
+      {
+        "value": "7663",
+        "description": "032265_580_680_RELO"
+      },
+      {
+        "value": "157797",
+        "description": "032733_580_680_RELO"
+      },
+      {
+        "value": "178753",
+        "description": "332733_580_680_RELO_ENB2"
+      },
+      {
+        "value": "6115",
+        "description": "032201_73RD_BANCROFT"
+      },
+      {
+        "value": "98353",
+        "description": "032875_73RD_BANCROFT"
+      },
+      {
+        "value": "2057580",
+        "description": "332875_73RD_BANCROFT_ENB2"
+      },
+      {
+        "value": "21533",
+        "description": "032850_880_HEGENBERGER_2"
+      },
+      {
+        "value": "48483",
+        "description": "032272_880_HEGENBERGER_2"
+      },
+      {
+        "value": "7977",
+        "description": "032273_ADELINE_MLK"
+      },
+      {
+        "value": "149461",
+        "description": "032935_ADELINE_MLK"
+      },
+      {
+        "value": "797",
+        "description": "032401_ALAMEDA"
+      },
+      {
+        "value": "154413",
+        "description": "032905_ALAMEDA"
+      },
+      {
+        "value": "41711",
+        "description": "032305_ALAMEDA_B2B"
+      },
+      {
+        "value": "180397",
+        "description": "332305_ALAMEDA_B2B_ENB2"
+      },
+      {
+        "value": "180399",
+        "description": "332905_ALAMEDA_ENB2"
+      },
+      {
+        "value": "597",
+        "description": "032427_ALAMEDA_ISLAND"
+      },
+      {
+        "value": "154433",
+        "description": "032883_ALAMEDA_ISLAND"
+      },
+      {
+        "value": "159677",
+        "description": "032283_ALAMEDA_ISLAND_B2B"
+      },
+      {
+        "value": "164509",
+        "description": "332283_ALAMEDA_ISLAND_B2B_ENB2"
+      },
+      {
+        "value": "163947",
+        "description": "332883_ALAMEDA_ISLAND_ENB2"
+      },
+      {
+        "value": "2580451",
+        "description": "632883_ALAMEDA_ISLAND_ENB3"
+      },
+      {
+        "value": "71231",
+        "description": "032468_ALAMEDA_POINT"
+      },
+      {
+        "value": "154805",
+        "description": "032902_ALAMEDA_POINT"
+      },
+      {
+        "value": "156451",
+        "description": "032580_ALAMO"
+      },
+      {
+        "value": "585",
+        "description": "032310_ALAMO"
+      },
+      {
+        "value": "2197160",
+        "description": "332580_ALAMO_ENB2"
+      },
+      {
+        "value": "149493",
+        "description": "032960_ALBANY"
+      },
+      {
+        "value": "10617",
+        "description": "032402_ALBANY"
+      },
+      {
+        "value": "174887",
+        "description": "332960_ALBANY_ENB2"
+      },
+      {
+        "value": "151783",
+        "description": "032635_ALHAMBRA_RELIEZ"
+      },
+      {
+        "value": "23917",
+        "description": "032501_ANTIOCH"
+      },
+      {
+        "value": "142933",
+        "description": "032653_ANTIOCH"
+      },
+      {
+        "value": "131029",
+        "description": "032253_ANTIOCH_B2B"
+      },
+      {
+        "value": "2104860",
+        "description": "332253_ANTIOCH_B2B_ENB2"
+      },
+      {
+        "value": "2104870",
+        "description": "332653_ANTIOCH_ENB2"
+      },
+      {
+        "value": "54171",
+        "description": "032346_ANTIOCH_HILLCREST"
+      },
+      {
+        "value": "142935",
+        "description": "032654_ANTIOCH_HILLCREST"
+      },
+      {
+        "value": "1654971",
+        "description": "332654_ANTIOCH_HILLCREST_ENB2"
+      },
+      {
+        "value": "61445",
+        "description": "032278_AQUATIC_PARK"
+      },
+      {
+        "value": "149463",
+        "description": "032938_AQUATIC_PARK"
+      },
+      {
+        "value": "171437",
+        "description": "332938_AQUATIC_PARK_ENB2"
+      },
+      {
+        "value": "160017",
+        "description": "032807_ARDENWOOD"
+      },
+      {
+        "value": "2935",
+        "description": "032439_ARDENWOOD"
+      },
+      {
+        "value": "152185",
+        "description": "032847_ASHLAND"
+      },
+      {
+        "value": "5961",
+        "description": "032455_ASHLAND"
+      },
+      {
+        "value": "171717",
+        "description": "332847_ASHLAND_ENB2"
+      },
+      {
+        "value": "42913",
+        "description": "032538_BAILEY_RD"
+      },
+      {
+        "value": "142937",
+        "description": "032646_BAILEY_RD"
+      },
+      {
+        "value": "102399",
+        "description": "032146_BALFOUR"
+      },
+      {
+        "value": "142939",
+        "description": "032672_BALFOUR"
+      },
+      {
+        "value": "2298090",
+        "description": "332672_BALFOUR_ENB2"
+      },
+      {
+        "value": "7377",
+        "description": "032399_BALLENA_BAY"
+      },
+      {
+        "value": "149465",
+        "description": "032901_BALLENA_BAY"
+      },
+      {
+        "value": "2643881",
+        "description": "332901_BALLENA_BAY_ENB2"
+      },
+      {
+        "value": "215421",
+        "description": "032896_BART_EAST_BAY_TUNNELS_DAS"
+      },
+      {
+        "value": "215455",
+        "description": "332896_BART_EAST_BAY_TUNNELS_DAS_ENB2"
+      },
+      {
+        "value": "2752781",
+        "description": "332897_BART_OAKLAND_WYE_DAS_ENB2"
+      },
+      {
+        "value": "215279",
+        "description": "032906_BART_TRANSBAY_TUBE_DAS"
+      },
+      {
+        "value": "1412637",
+        "description": "332906_BART_TRANSBAY_TUBE_DAS_ENB2"
+      },
+      {
+        "value": "218091",
+        "description": "032090_BAY_BRIDGE_DAS"
+      },
+      {
+        "value": "149467",
+        "description": "032919_BAY_BRIDGE_EAST_BC2"
+      },
+      {
+        "value": "1325",
+        "description": "032403_BAY_BRIDGE_EAST_BC2"
+      },
+      {
+        "value": "202849",
+        "description": "332919_BAY_BRIDGE_EAST_BC2_ENB2"
+      },
+      {
+        "value": "154435",
+        "description": "032868_BAY_FARM_ISLAND"
+      },
+      {
+        "value": "1347",
+        "description": "032400_BAY_FARM_ISLAND"
+      },
+      {
+        "value": "2192990",
+        "description": "332868_BAY_FARM_ISLAND_ENB2"
+      },
+      {
+        "value": "2533751",
+        "description": "632868_BAY_FARM_ISLAND_ENB3"
+      },
+      {
+        "value": "154415",
+        "description": "032869_BAY_FARM_WEST"
+      },
+      {
+        "value": "175395",
+        "description": "332869_BAY_FARM_WEST_ENB2"
+      },
+      {
+        "value": "152187",
+        "description": "032848_BAYFAIR"
+      },
+      {
+        "value": "6477",
+        "description": "032436_BAYFAIR"
+      },
+      {
+        "value": "174917",
+        "description": "332848_BAYFAIR_ENB2"
+      },
+      {
+        "value": "141603",
+        "description": "032626_BENICIA"
+      },
+      {
+        "value": "13051",
+        "description": "032306_BENICIA"
+      },
+      {
+        "value": "2327000",
+        "description": "332626_BENICIA_ENB2"
+      },
+      {
+        "value": "139101",
+        "description": "032611_BENICIA_INDUSTRIAL_PARK"
+      },
+      {
+        "value": "20059",
+        "description": "032549_BENICIA_INDUSTRIAL_PARK"
+      },
+      {
+        "value": "149469",
+        "description": "032940_BERKELEY_B2B"
+      },
+      {
+        "value": "2549821",
+        "description": "332940_BERKELEY_B2B_ENB2"
+      },
+      {
+        "value": "7365",
+        "description": "032275_BERKELEY_BEKINS"
+      },
+      {
+        "value": "149497",
+        "description": "032943_BERKELEY_BEKINS"
+      },
+      {
+        "value": "312323",
+        "description": "332943_BERKELEY_BEKINS_ENB2"
+      },
+      {
+        "value": "6605",
+        "description": "032194_BERKELEY_CLAREMONT"
+      },
+      {
+        "value": "149501",
+        "description": "032946_BERKELEY_CLAREMONT"
+      },
+      {
+        "value": "2660991",
+        "description": "032944_BERKELEY_STORE_IDAS"
+      },
+      {
+        "value": "156401",
+        "description": "032593_BLACKHAWK_HILLS"
+      },
+      {
+        "value": "8545",
+        "description": "032377_BLACKHAWK_HILLS"
+      },
+      {
+        "value": "2616301",
+        "description": "332593_BLACKHAWK_HILLS_ENB2"
+      },
+      {
+        "value": "2616561",
+        "description": "632593_BLACKHAWK_HILLS_ENB3"
+      },
+      {
+        "value": "7921",
+        "description": "032388_BOLLINGER_DOUGHERTY"
+      },
+      {
+        "value": "157929",
+        "description": "032768_BOLLINGER_DOUGHERTY"
+      },
+      {
+        "value": "2937101",
+        "description": "332768_BOLLINGER_DOUGHERTY_ENB2"
+      },
+      {
+        "value": "142941",
+        "description": "032669_BRENTWOOD"
+      },
+      {
+        "value": "24813",
+        "description": "032503_BRENTWOOD"
+      },
+      {
+        "value": "2826261",
+        "description": "332669_BRENTWOOD_ENB2"
+      },
+      {
+        "value": "139103",
+        "description": "032968_BRICKYARD_COVE"
+      },
+      {
+        "value": "7925",
+        "description": "032234_BRICKYARD_COVE"
+      },
+      {
+        "value": "2046500",
+        "description": "332968_BRICKYARD_COVE_ENB2"
+      },
+      {
+        "value": "142943",
+        "description": "032660_BRIDGEHEAD"
+      },
+      {
+        "value": "119725",
+        "description": "032116_BRIDGEHEAD"
+      },
+      {
+        "value": "2340480",
+        "description": "332660_BRIDGEHEAD_ENB2"
+      },
+      {
+        "value": "126187",
+        "description": "032114_BROADWAY_29TH"
+      },
+      {
+        "value": "126709",
+        "description": "032914_BROADWAY_29TH"
+      },
+      {
+        "value": "2559611",
+        "description": "332914_BROADWAY_29TH_ENB2"
+      },
+      {
+        "value": "683",
+        "description": "032453_BROADWAY_MACARTHUR"
+      },
+      {
+        "value": "149471",
+        "description": "032925_BROADWAY_MACARTHUR"
+      },
+      {
+        "value": "189057",
+        "description": "332925_BROADWAY_MACARTHUR_ENB2"
+      },
+      {
+        "value": "2857701",
+        "description": "632925_BROADWAY_MACARTHUR_ENB3"
+      },
+      {
+        "value": "155217",
+        "description": "032930_BROADWAY_TERRACE"
+      },
+      {
+        "value": "2625561",
+        "description": "332930_BROADWAY_TERRACE_ENB2"
+      },
+      {
+        "value": "65647",
+        "description": "032184_BRUSHY_CREEK"
+      },
+      {
+        "value": "145727",
+        "description": "032692_BRUSHY_CREEK"
+      },
+      {
+        "value": "156441",
+        "description": "032561_BURTON_VALLEY"
+      },
+      {
+        "value": "74583",
+        "description": "032271_BYRON"
+      },
+      {
+        "value": "145713",
+        "description": "032685_BYRON"
+      },
+      {
+        "value": "2371050",
+        "description": "332685_BYRON_ENB2"
+      },
+      {
+        "value": "2669371",
+        "description": "032041_CAL_MEMORIAL_STADIUM_DUS1"
+      },
+      {
+        "value": "2671281",
+        "description": "032050_CAL_MEMORIAL_STADIUM_DUS10"
+      },
+      {
+        "value": "2671391",
+        "description": "332050_CAL_MEMORIAL_STADIUM_DUS10_ENB2"
+      },
+      {
+        "value": "2671761",
+        "description": "032053_CAL_MEMORIAL_STADIUM_DUS11"
+      },
+      {
+        "value": "2671401",
+        "description": "332053_CAL_MEMORIAL_STADIUM_DUS11_ENB2"
+      },
+      {
+        "value": "2671411",
+        "description": "032054_CAL_MEMORIAL_STADIUM_DUS12"
+      },
+      {
+        "value": "2671421",
+        "description": "332054_CAL_MEMORIAL_STADIUM_DUS12_ENB2"
+      },
+      {
+        "value": "2671431",
+        "description": "032055_CAL_MEMORIAL_STADIUM_DUS13"
+      },
+      {
+        "value": "2671441",
+        "description": "332055_CAL_MEMORIAL_STADIUM_DUS13_ENB2"
+      },
+      {
+        "value": "2671451",
+        "description": "032056_CAL_MEMORIAL_STADIUM_DUS14"
+      },
+      {
+        "value": "2671461",
+        "description": "332056_CAL_MEMORIAL_STADIUM_DUS14_ENB2"
+      },
+      {
+        "value": "2671521",
+        "description": "032057_CAL_MEMORIAL_STADIUM_DUS15"
+      },
+      {
+        "value": "2671531",
+        "description": "332057_CAL_MEMORIAL_STADIUM_DUS15_ENB2"
+      },
+      {
+        "value": "2669381",
+        "description": "332041_CAL_MEMORIAL_STADIUM_DUS1_ENB2"
+      },
+      {
+        "value": "2669441",
+        "description": "032042_CAL_MEMORIAL_STADIUM_DUS2"
+      },
+      {
+        "value": "2669451",
+        "description": "332042_CAL_MEMORIAL_STADIUM_DUS2_ENB2"
+      },
+      {
+        "value": "2669461",
+        "description": "032043_CAL_MEMORIAL_STADIUM_DUS3"
+      },
+      {
+        "value": "2669471",
+        "description": "332043_CAL_MEMORIAL_STADIUM_DUS3_ENB2"
+      },
+      {
+        "value": "2670361",
+        "description": "032044_CAL_MEMORIAL_STADIUM_DUS4"
+      },
+      {
+        "value": "2670371",
+        "description": "332044_CAL_MEMORIAL_STADIUM_DUS4_ENB2"
+      },
+      {
+        "value": "2669501",
+        "description": "032045_CAL_MEMORIAL_STADIUM_DUS5"
+      },
+      {
+        "value": "2669491",
+        "description": "332045_CAL_MEMORIAL_STADIUM_DUS5_ENB2"
+      },
+      {
+        "value": "2670451",
+        "description": "032046_CAL_MEMORIAL_STADIUM_DUS6"
+      },
+      {
+        "value": "2671081",
+        "description": "332046_CAL_MEMORIAL_STADIUM_DUS6_ENB2"
+      },
+      {
+        "value": "2669511",
+        "description": "032047_CAL_MEMORIAL_STADIUM_DUS7"
+      },
+      {
+        "value": "2671341",
+        "description": "332047_CAL_MEMORIAL_STADIUM_DUS7_ENB2"
+      },
+      {
+        "value": "2670671",
+        "description": "032048_CAL_MEMORIAL_STADIUM_DUS8"
+      },
+      {
+        "value": "2671351",
+        "description": "332048_CAL_MEMORIAL_STADIUM_DUS8_ENB2"
+      },
+      {
+        "value": "2670761",
+        "description": "032049_CAL_MEMORIAL_STADIUM_DUS9"
+      },
+      {
+        "value": "2671361",
+        "description": "332049_CAL_MEMORIAL_STADIUM_DUS9_ENB2"
+      },
+      {
+        "value": "6189",
+        "description": "032430_CALDECOTT_EAST"
+      },
+      {
+        "value": "156403",
+        "description": "032574_CALDECOTT_EAST"
+      },
+      {
+        "value": "156455",
+        "description": "032575_CALDECOTT_TUNNEL"
+      },
+      {
+        "value": "7295",
+        "description": "032405_CALDECOTT_TUNNEL"
+      },
+      {
+        "value": "143007",
+        "description": "032687_CAMINO_DIABLO_VASCO"
+      },
+      {
+        "value": "79839",
+        "description": "032183_CAMINO_DIABLO_VASCO"
+      },
+      {
+        "value": "2536611",
+        "description": "332687_CAMINO_DIABLO_VASCO_ENB2"
+      },
+      {
+        "value": "139105",
+        "description": "032619_CARQUINEZ_BRIDGE"
+      },
+      {
+        "value": "10103",
+        "description": "032163_CARQUINEZ_BRIDGE"
+      },
+      {
+        "value": "58611",
+        "description": "032362_CASTLEWOOD"
+      },
+      {
+        "value": "157803",
+        "description": "032740_CASTLEWOOD"
+      },
+      {
+        "value": "7589",
+        "description": "032406_CASTRO_VALLEY"
+      },
+      {
+        "value": "157793",
+        "description": "032752_CASTRO_VALLEY"
+      },
+      {
+        "value": "177639",
+        "description": "332752_CASTRO_VALLEY_ENB2"
+      },
+      {
+        "value": "2641331",
+        "description": "632752_CASTRO_VALLEY_ENB3"
+      },
+      {
+        "value": "160019",
+        "description": "032798_CENTRAL_FREMONT"
+      },
+      {
+        "value": "65631",
+        "description": "032330_CENTRAL_FREMONT"
+      },
+      {
+        "value": "2193100",
+        "description": "332798_CENTRAL_FREMONT_ENB2"
+      },
+      {
+        "value": "23693",
+        "description": "032460_CENTRAL_NEWARK"
+      },
+      {
+        "value": "160021",
+        "description": "032804_CENTRAL_NEWARK"
+      },
+      {
+        "value": "2269530",
+        "description": "332804_CENTRAL_NEWARK_ENB2"
+      },
+      {
+        "value": "2827691",
+        "description": "032796_CENTRAL_NILES"
+      },
+      {
+        "value": "160023",
+        "description": "032828_CHABOT_COLLEGE"
+      },
+      {
+        "value": "23979",
+        "description": "032410_CHABOT_COLLEGE"
+      },
+      {
+        "value": "2213590",
+        "description": "332828_CHABOT_COLLEGE_ENB2"
+      },
+      {
+        "value": "113447",
+        "description": "032457_CHEVRON_RESEARCH"
+      },
+      {
+        "value": "139109",
+        "description": "032971_CHEVRON_RESEARCH"
+      },
+      {
+        "value": "2826921",
+        "description": "332971_CHEVRON_RESEARCH_ENB2"
+      },
+      {
+        "value": "157801",
+        "description": "032766_CHEVRON_TOWER"
+      },
+      {
+        "value": "20255",
+        "description": "032374_CHEVRON_TOWER"
+      },
+      {
+        "value": "2875261",
+        "description": "332766_CHEVRON_TOWER_ENB2"
+      },
+      {
+        "value": "141605",
+        "description": "032627_CHRISTIE"
+      },
+      {
+        "value": "23567",
+        "description": "032217_CHRISTIE"
+      },
+      {
+        "value": "23561",
+        "description": "032520_CLAYTON"
+      },
+      {
+        "value": "9485",
+        "description": "032268_CLAYTON"
+      },
+      {
+        "value": "2323960",
+        "description": "332520_CLAYTON_ENB2"
+      },
+      {
+        "value": "142945",
+        "description": "032525_CLAYTON_YGNACIO"
+      },
+      {
+        "value": "44343",
+        "description": "032267_CLAYTON_YGNACIO"
+      },
+      {
+        "value": "139111",
+        "description": "032605_COLUMBUS_PKWY"
+      },
+      {
+        "value": "10097",
+        "description": "032229_COLUMBUS_PKWY"
+      },
+      {
+        "value": "2218810",
+        "description": "332605_COLUMBUS_PKWY_ENB2"
+      },
+      {
+        "value": "145729",
+        "description": "032714_Concannon"
+      },
+      {
+        "value": "141607",
+        "description": "032535_CONCORD"
+      },
+      {
+        "value": "7943",
+        "description": "032311_CONCORD"
+      },
+      {
+        "value": "2619721",
+        "description": "032512_CONCORD_EAST"
+      },
+      {
+        "value": "7733",
+        "description": "032314_CONCORD_EAST"
+      },
+      {
+        "value": "141609",
+        "description": "032514_CONCORD_EAST"
+      },
+      {
+        "value": "5431",
+        "description": "032312_CONCORD_EAST_B2B"
+      },
+      {
+        "value": "2619911",
+        "description": "332312_CONCORD_EAST_B2B_ENB2"
+      },
+      {
+        "value": "2619841",
+        "description": "332512_CONCORD_EAST_ENB2"
+      },
+      {
+        "value": "154807",
+        "description": "032887_COOL_FOOT"
+      },
+      {
+        "value": "53929",
+        "description": "032463_COOL_FOOT"
+      },
+      {
+        "value": "2675261",
+        "description": "332887_COOL_FOOT_ENB2"
+      },
+      {
+        "value": "156405",
+        "description": "032762_CROW_CANYON_DOUGHERTY"
+      },
+      {
+        "value": "6193",
+        "description": "032384_CROW_CANYON_DOUGHERTY"
+      },
+      {
+        "value": "157807",
+        "description": "032756_CROW_CANYON_EAST"
+      },
+      {
+        "value": "8353",
+        "description": "032378_CROW_CANYON_EAST"
+      },
+      {
+        "value": "1761973",
+        "description": "332756_CROW_CANYON_EAST_ENB2"
+      },
+      {
+        "value": "157809",
+        "description": "032748_CROW_CANYON_S"
+      },
+      {
+        "value": "1177",
+        "description": "032386_CROW_CANYON_S"
+      },
+      {
+        "value": "213465",
+        "description": "332748_CROW_CANYON_S_ENB2"
+      },
+      {
+        "value": "607",
+        "description": "032096_CSU_HAYWARD"
+      },
+      {
+        "value": "157811",
+        "description": "032837_CSU_HAYWARD_COW"
+      },
+      {
+        "value": "100905",
+        "description": "032003_CSU_HAYWARD_COW"
+      },
+      {
+        "value": "119699",
+        "description": "032109_CUSHING_PKWY"
+      },
+      {
+        "value": "152189",
+        "description": "032789_CUSHING_PKWY"
+      },
+      {
+        "value": "2042930",
+        "description": "332789_CUSHING_PKWY_ENB2"
+      },
+      {
+        "value": "156407",
+        "description": "032763_DANVILLE_DIABLO"
+      },
+      {
+        "value": "171013",
+        "description": "332763_DANVILLE_DIABLO_ENB2"
+      },
+      {
+        "value": "23865",
+        "description": "032266_DETROIT_AVENUE"
+      },
+      {
+        "value": "141611",
+        "description": "032518_DETROIT_AVENUE"
+      },
+      {
+        "value": "177727",
+        "description": "332518_DETROIT_AVENUE_ENB2"
+      },
+      {
+        "value": "12633",
+        "description": "032286_DIABLO_GREEN_VALLEY"
+      },
+      {
+        "value": "156409",
+        "description": "032586_DIABLO_GREEN_VALLEY"
+      },
+      {
+        "value": "141613",
+        "description": "032516_DIABLO_VALLEY_COLLEGE"
+      },
+      {
+        "value": "9565",
+        "description": "032242_DIABLO_VALLEY_COLLEGE"
+      },
+      {
+        "value": "141615",
+        "description": "332516_DIABLO_VALLEY_COLLEGE_ENB2"
+      },
+      {
+        "value": "117257",
+        "description": "332242_DIABLO_VALLEY_COLLEGE_ENB2"
+      },
+      {
+        "value": "58597",
+        "description": "032270_DISCOVERY_BAY"
+      },
+      {
+        "value": "145733",
+        "description": "032682_DISCOVERY_BAY"
+      },
+      {
+        "value": "2202700",
+        "description": "332682_DISCOVERY_BAY_ENB2"
+      },
+      {
+        "value": "154801",
+        "description": "032863_DOOLITTLE"
+      },
+      {
+        "value": "57779",
+        "description": "032469_DOOLITTLE"
+      },
+      {
+        "value": "2055600",
+        "description": "332863_DOOLITTLE_ENB2"
+      },
+      {
+        "value": "1931",
+        "description": "032577_DOUGHERTY"
+      },
+      {
+        "value": "156443",
+        "description": "032591_DOUGHERTY"
+      },
+      {
+        "value": "2513061",
+        "description": "332591_DOUGHERTY_ENB2"
+      },
+      {
+        "value": "157813",
+        "description": "032773_DOUGHERTY_HILLS"
+      },
+      {
+        "value": "67599",
+        "description": "032559_DOUGHERTY_HILLS"
+      },
+      {
+        "value": "1758419",
+        "description": "332773_DOUGHERTY_HILLS_ENB2"
+      },
+      {
+        "value": "22397",
+        "description": "032207_DOWNTOWN_BENICIA"
+      },
+      {
+        "value": "139113",
+        "description": "032613_DOWNTOWN_BENICIA"
+      },
+      {
+        "value": "5411",
+        "description": "032424_DOWNTOWN_BERKELEY"
+      },
+      {
+        "value": "149505",
+        "description": "032950_DOWNTOWN_BERKELEY"
+      },
+      {
+        "value": "6877",
+        "description": "032269_DOWNTOWN_CLAYTON"
+      },
+      {
+        "value": "142947",
+        "description": "032529_DOWNTOWN_CLAYTON"
+      },
+      {
+        "value": "2285380",
+        "description": "332529_DOWNTOWN_CLAYTON_ENB2"
+      },
+      {
+        "value": "160025",
+        "description": "032782_DOWNTOWN_FREMONT"
+      },
+      {
+        "value": "1517",
+        "description": "032320_DOWNTOWN_FREMONT"
+      },
+      {
+        "value": "2597071",
+        "description": "332782_DOWNTOWN_FREMONT_ENB2"
+      },
+      {
+        "value": "145737",
+        "description": "032707_DOWNTOWN_LIVERMORE"
+      },
+      {
+        "value": "6557",
+        "description": "032371_DOWNTOWN_LIVERMORE"
+      },
+      {
+        "value": "145739",
+        "description": "332707_DOWNTOWN_LIVERMORE_ENB2"
+      },
+      {
+        "value": "117259",
+        "description": "332371_DOWNTOWN_LIVERMORE_ENB2"
+      },
+      {
+        "value": "2777",
+        "description": "032438_DOWNTOWN_OAKLAND"
+      },
+      {
+        "value": "154437",
+        "description": "032910_DOWNTOWN_OAKLAND"
+      },
+      {
+        "value": "1759895",
+        "description": "332910_DOWNTOWN_OAKLAND_ENB2"
+      },
+      {
+        "value": "7189",
+        "description": "032319_DT_WALNUT_CREEK"
+      },
+      {
+        "value": "156459",
+        "description": "032553_DT_WALNUT_CREEK"
+      },
+      {
+        "value": "157799",
+        "description": "032745_DUBLIN"
+      },
+      {
+        "value": "591",
+        "description": "032557_DUBLIN"
+      },
+      {
+        "value": "23821",
+        "description": "032245_DUBLIN_B2B"
+      },
+      {
+        "value": "2043910",
+        "description": "332245_DUBLIN_B2B_ENB2"
+      },
+      {
+        "value": "157815",
+        "description": "032732_DUBLIN_BART"
+      },
+      {
+        "value": "56249",
+        "description": "032558_DUBLIN_BART"
+      },
+      {
+        "value": "185641",
+        "description": "332732_DUBLIN_BART_ENB2"
+      },
+      {
+        "value": "164487",
+        "description": "332745_DUBLIN_ENB2"
+      },
+      {
+        "value": "2638711",
+        "description": "632745_DUBLIN_ENB3"
+      },
+      {
+        "value": "160027",
+        "description": "032805_DUMBARTON_BRIDGE_EAST"
+      },
+      {
+        "value": "4531",
+        "description": "032093_DUMBARTON_BRIDGE_EAST"
+      },
+      {
+        "value": "2332440",
+        "description": "332805_DUMBARTON_BRIDGE_EAST_ENB2"
+      },
+      {
+        "value": "152191",
+        "description": "032854_EAST_14TH_98TH"
+      },
+      {
+        "value": "777",
+        "description": "032428_EAST_14TH_98TH"
+      },
+      {
+        "value": "2842781",
+        "description": "332854_EAST_14TH_98TH_ENB2"
+      },
+      {
+        "value": "1323",
+        "description": "032456_EAST_14TH_HIGH_ST"
+      },
+      {
+        "value": "154803",
+        "description": "032882_EAST_14TH_HIGH_ST"
+      },
+      {
+        "value": "159489",
+        "description": "332882_EAST_14TH_HIGH_ST_ENB2"
+      },
+      {
+        "value": "2597521",
+        "description": "632882_EAST_14TH_HIGH_ST_ENB3"
+      },
+      {
+        "value": "142949",
+        "description": "032658_EAST_ANTIOCH"
+      },
+      {
+        "value": "23653",
+        "description": "032345_EAST_ANTIOCH"
+      },
+      {
+        "value": "2533231",
+        "description": "332658_EAST_ANTIOCH_ENB2"
+      },
+      {
+        "value": "43009",
+        "description": "032230_EAST_OAKLEY"
+      },
+      {
+        "value": "142953",
+        "description": "032664_EAST_OAKLEY"
+      },
+      {
+        "value": "2205520",
+        "description": "332664_EAST_OAKLEY_ENB2"
+      },
+      {
+        "value": "1141",
+        "description": "032442_EL_CERRITO"
+      },
+      {
+        "value": "139115",
+        "description": "032962_EL_CERRITO"
+      },
+      {
+        "value": "175257",
+        "description": "332962_EL_CERRITO_ENB2"
+      },
+      {
+        "value": "2660691",
+        "description": "032959_EL_CERRITO_STORE_IDAS"
+      },
+      {
+        "value": "9453",
+        "description": "032407_EL_SOBRANTE"
+      },
+      {
+        "value": "139117",
+        "description": "032977_EL_SOBRANTE"
+      },
+      {
+        "value": "2503101",
+        "description": "332977_EL_SOBRANTE_ENB2"
+      },
+      {
+        "value": "149475",
+        "description": "032937_EMERYVILLE"
+      },
+      {
+        "value": "5719",
+        "description": "032197_EMERYVILLE"
+      },
+      {
+        "value": "2632201",
+        "description": "332937_EMERYVILLE_ENB2"
+      },
+      {
+        "value": "151801",
+        "description": "032900_ENCINAL"
+      },
+      {
+        "value": "2597191",
+        "description": "332900_ENCINAL_ENB2"
+      },
+      {
+        "value": "23773",
+        "description": "032506_FAIRFIELD"
+      },
+      {
+        "value": "139119",
+        "description": "032972_FERRY_POINT_II"
+      },
+      {
+        "value": "9411",
+        "description": "032224_FERRY_POINT_II"
+      },
+      {
+        "value": "2552651",
+        "description": "332972_FERRY_POINT_II_ENB2"
+      },
+      {
+        "value": "2316140",
+        "description": "032823_FOLSOM_RUUS"
+      },
+      {
+        "value": "3404391",
+        "description": "332823_FOLSOM_RUUS_ENB2"
+      },
+      {
+        "value": "23745",
+        "description": "032289_FRANKLIN_CANYON"
+      },
+      {
+        "value": "141617",
+        "description": "032629_FRANKLIN_CANYON"
+      },
+      {
+        "value": "2389680",
+        "description": "332629_FRANKLIN_CANYON_ENB2"
+      },
+      {
+        "value": "160029",
+        "description": "032797_FREMONT_PERALTA"
+      },
+      {
+        "value": "589",
+        "description": "032293_FREMONT_PERALTA"
+      },
+      {
+        "value": "2621281",
+        "description": "332797_FREMONT_PERALTA_ENB2"
+      },
+      {
+        "value": "133089",
+        "description": "032955_GILMAN_STREET"
+      },
+      {
+        "value": "22937",
+        "description": "032434_GOLDEN_GATE_FIELDS"
+      },
+      {
+        "value": "149507",
+        "description": "032956_GOLDEN_GATE_FIELDS"
+      },
+      {
+        "value": "2503991",
+        "description": "332956_GOLDEN_GATE_FIELDS_ENB2"
+      },
+      {
+        "value": "2733",
+        "description": "032440_GRAND_LAKE"
+      },
+      {
+        "value": "154417",
+        "description": "032898_GRAND_LAKE"
+      },
+      {
+        "value": "2642511",
+        "description": "332898_GRAND_LAKE_ENB2"
+      },
+      {
+        "value": "149477",
+        "description": "032917_GRAND_MANDELA"
+      },
+      {
+        "value": "1749",
+        "description": "032239_GRAND_MANDELA"
+      },
+      {
+        "value": "178745",
+        "description": "332917_GRAND_MANDELA_ENB2"
+      },
+      {
+        "value": "156411",
+        "description": "032584_GREEN_VALLEY"
+      },
+      {
+        "value": "15305",
+        "description": "032324_GREEN_VALLEY"
+      },
+      {
+        "value": "6281",
+        "description": "032264_HACIENDA_MALL"
+      },
+      {
+        "value": "145741",
+        "description": "032730_HACIENDA_MALL"
+      },
+      {
+        "value": "3269401",
+        "description": "332230_HACIENDA_MALL_B2B_ENB2"
+      },
+      {
+        "value": "3269161",
+        "description": "332730_HACIENDA_MALL_ENB2"
+      },
+      {
+        "value": "7379",
+        "description": "032396_HAPPY_VALLEY"
+      },
+      {
+        "value": "156413",
+        "description": "032570_HAPPY_VALLEY"
+      },
+      {
+        "value": "2846711",
+        "description": "332570_HAPPY_VALLEY_ENB2"
+      },
+      {
+        "value": "141619",
+        "description": "032632_HARBOR_VIEW"
+      },
+      {
+        "value": "2613",
+        "description": "032308_HARBOR_VIEW"
+      },
+      {
+        "value": "2040610",
+        "description": "032332_HARBOR_VIEW_B2B"
+      },
+      {
+        "value": "2042960",
+        "description": "332332_HARBOR_VIEW_B2B_ENB2"
+      },
+      {
+        "value": "2042750",
+        "description": "332632_HARBOR_VIEW_ENB2"
+      },
+      {
+        "value": "3259",
+        "description": "032195_HAYWARD_WEST_WINTON"
+      },
+      {
+        "value": "152193",
+        "description": "032843_HAYWARD_WEST_WINTON"
+      },
+      {
+        "value": "2291840",
+        "description": "332843_HAYWARD_WEST_WINTON_ENB2"
+      },
+      {
+        "value": "13125",
+        "description": "032304_HERCULES"
+      },
+      {
+        "value": "141621",
+        "description": "032624_HERCULES"
+      },
+      {
+        "value": "2323760",
+        "description": "332624_HERCULES_ENB2"
+      },
+      {
+        "value": "6683",
+        "description": "032385_HESPERIAN_A_STREET"
+      },
+      {
+        "value": "152195",
+        "description": "032841_HESPERIAN_A_STREET"
+      },
+      {
+        "value": "171785",
+        "description": "332841_HESPERIAN_A_STREET_ENB2"
+      },
+      {
+        "value": "139121",
+        "description": "032982_HILLTOP"
+      },
+      {
+        "value": "11515",
+        "description": "032478_HILLTOP"
+      },
+      {
+        "value": "2219440",
+        "description": "332982_HILLTOP_ENB2"
+      },
+      {
+        "value": "141623",
+        "description": "032639_HWY4_242"
+      },
+      {
+        "value": "201047",
+        "description": "332639_HWY4_242_ENB2"
+      },
+      {
+        "value": "9225",
+        "description": "032098_HWY_12_29"
+      },
+      {
+        "value": "6791",
+        "description": "032411_HWY_13"
+      },
+      {
+        "value": "154439",
+        "description": "032927_HWY_13"
+      },
+      {
+        "value": "583",
+        "description": "032429_HWY_13_24"
+      },
+      {
+        "value": "154441",
+        "description": "032929_HWY_13_24"
+      },
+      {
+        "value": "205721",
+        "description": "332929_HWY_13_24_ENB2"
+      },
+      {
+        "value": "2552721",
+        "description": "332927_HWY_13_ENB2"
+      },
+      {
+        "value": "145743",
+        "description": "032700_HWY_205_580"
+      },
+      {
+        "value": "23883",
+        "description": "032544_HWY_205_580"
+      },
+      {
+        "value": "5665",
+        "description": "032448_HWY_238_880"
+      },
+      {
+        "value": "152197",
+        "description": "032846_HWY_238_880"
+      },
+      {
+        "value": "168013",
+        "description": "332846_HWY_238_880_ENB2"
+      },
+      {
+        "value": "160031",
+        "description": "032794_HWY_238_NILES_CANYON"
+      },
+      {
+        "value": "6579",
+        "description": "032238_HWY_238_NILES_CANYON"
+      },
+      {
+        "value": "179857",
+        "description": "332794_HWY_238_NILES_CANYON_ENB2"
+      },
+      {
+        "value": "54179",
+        "description": "032331_HWY_238_STEVENSON"
+      },
+      {
+        "value": "160033",
+        "description": "032793_HWY_238_STEVENSON"
+      },
+      {
+        "value": "2809771",
+        "description": "332793_HWY_238_STEVENSON_ENB2"
+      },
+      {
+        "value": "160035",
+        "description": "032822_HWY_238_TENNYSON"
+      },
+      {
+        "value": "61349",
+        "description": "032368_HWY_238_TENNYSON"
+      },
+      {
+        "value": "179535",
+        "description": "332822_HWY_238_TENNYSON_ENB2"
+      },
+      {
+        "value": "7381",
+        "description": "032200_HWY_24_580"
+      },
+      {
+        "value": "149479",
+        "description": "032924_HWY_24_580"
+      },
+      {
+        "value": "175253",
+        "description": "332924_HWY_24_580_ENB2"
+      },
+      {
+        "value": "156415",
+        "description": "032555_HWY_24_680"
+      },
+      {
+        "value": "23719",
+        "description": "032315_HWY_24_680"
+      },
+      {
+        "value": "2115960",
+        "description": "332555_HWY_24_680_ENB2"
+      },
+      {
+        "value": "9211",
+        "description": "032216_HWY_29_37"
+      },
+      {
+        "value": "139123",
+        "description": "032602_HWY_29_37"
+      },
+      {
+        "value": "9217",
+        "description": "032344_HWY_29_AMERICAN_CANYON"
+      },
+      {
+        "value": "142955",
+        "description": "032648_HWY_4_BAILEY"
+      },
+      {
+        "value": "33653",
+        "description": "032394_HWY_4_BAILEY"
+      },
+      {
+        "value": "178431",
+        "description": "332648_HWY_4_BAILEY_ENB2"
+      },
+      {
+        "value": "26289",
+        "description": "032243_HWY_4_BYPASS"
+      },
+      {
+        "value": "142959",
+        "description": "032661_HWY_4_BYPASS"
+      },
+      {
+        "value": "2164810",
+        "description": "332661_HWY_4_BYPASS_ENB2"
+      },
+      {
+        "value": "33661",
+        "description": "032193_HWY_4_SOMERSVILLE"
+      },
+      {
+        "value": "142965",
+        "description": "032651_HWY_4_SOMERSVILLE"
+      },
+      {
+        "value": "2269680",
+        "description": "332651_HWY_4_SOMERSVILLE_ENB2"
+      },
+      {
+        "value": "8443",
+        "description": "032412_HWY_580_13"
+      },
+      {
+        "value": "154443",
+        "description": "032878_HWY_580_13"
+      },
+      {
+        "value": "145745",
+        "description": "032722_HWY_580_AIRWAY"
+      },
+      {
+        "value": "6667",
+        "description": "032594_HWY_580_AIRWAY"
+      },
+      {
+        "value": "2659591",
+        "description": "332722_HWY_580_AIRWAY_ENB2"
+      },
+      {
+        "value": "152199",
+        "description": "032856_HWY_580_DUTTON"
+      },
+      {
+        "value": "2277340",
+        "description": "332856_HWY_580_DUTTON_ENB2"
+      },
+      {
+        "value": "451",
+        "description": "032551_HWY_580_EDEN_CANYON"
+      },
+      {
+        "value": "157817",
+        "description": "032746_HWY_580_EDEN_CANYON"
+      },
+      {
+        "value": "177535",
+        "description": "332746_HWY_580_EDEN_CANYON_ENB2"
+      },
+      {
+        "value": "145747",
+        "description": "032724_HWY_580_EL_CHARRO"
+      },
+      {
+        "value": "58833",
+        "description": "032192_HWY_580_EL_CHARRO"
+      },
+      {
+        "value": "2552641",
+        "description": "332724_HWY_580_EL_CHARRO_ENB2"
+      },
+      {
+        "value": "145751",
+        "description": "032703_Hwy_580_Greenville"
+      },
+      {
+        "value": "35967",
+        "description": "032187_Hwy_580_Greenville"
+      },
+      {
+        "value": "2503571",
+        "description": "332703_Hwy_580_Greenville_ENB2"
+      },
+      {
+        "value": "8295",
+        "description": "032282_HWY_580_GROVE"
+      },
+      {
+        "value": "157819",
+        "description": "032750_HWY_580_GROVE"
+      },
+      {
+        "value": "188925",
+        "description": "332750_HWY_580_GROVE_ENB2"
+      },
+      {
+        "value": "178703",
+        "description": "032704_HWY_580_VASCO"
+      },
+      {
+        "value": "7667",
+        "description": "032263_HWY_680_238"
+      },
+      {
+        "value": "160037",
+        "description": "032781_HWY_680_238"
+      },
+      {
+        "value": "23155",
+        "description": "032317_HWY_680_242"
+      },
+      {
+        "value": "141625",
+        "description": "032515_HWY_680_242"
+      },
+      {
+        "value": "2769571",
+        "description": "332515_HWY_680_242_ENB2"
+      },
+      {
+        "value": "157931",
+        "description": "032739_HWY_680_BERNAL"
+      },
+      {
+        "value": "8611",
+        "description": "032373_HWY_680_BERNAL"
+      },
+      {
+        "value": "137831",
+        "description": "332739_HWY_680_BERNAL_ENB2"
+      },
+      {
+        "value": "156419",
+        "description": "032581_HWY_680_EL_CERRO"
+      },
+      {
+        "value": "5203",
+        "description": "032209_HWY_680_EL_CERRO"
+      },
+      {
+        "value": "2693441",
+        "description": "332581_HWY_680_EL_CERRO_ENB2"
+      },
+      {
+        "value": "22711",
+        "description": "032241_HWY_680_MARINA_VISTA"
+      },
+      {
+        "value": "141627",
+        "description": "032633_HWY_680_MARINA_VISTA"
+      },
+      {
+        "value": "2513781",
+        "description": "332633_HWY_680_MARINA_VISTA_ENB2"
+      },
+      {
+        "value": "10383",
+        "description": "032321_HWY_680_MISSION"
+      },
+      {
+        "value": "157821",
+        "description": "032779_HWY_680_MISSION"
+      },
+      {
+        "value": "2528671",
+        "description": "332779_HWY_680_MISSION_ENB2"
+      },
+      {
+        "value": "9245",
+        "description": "032473_HWY_680_PARISH_ROAD"
+      },
+      {
+        "value": "139125",
+        "description": "032609_HWY_680_PARISH_ROAD"
+      },
+      {
+        "value": "157823",
+        "description": "032777_HWY_680_SHERIDAN"
+      },
+      {
+        "value": "75141",
+        "description": "032333_HWY_680_SHERIDAN"
+      },
+      {
+        "value": "5561",
+        "description": "032280_HWY_680_SYCAMORE"
+      },
+      {
+        "value": "156421",
+        "description": "032588_HWY_680_SYCAMORE"
+      },
+      {
+        "value": "167119",
+        "description": "032210_HWY_680_SYCAMORE_COW"
+      },
+      {
+        "value": "9931",
+        "description": "032485_HWY_780_COLUMBUS"
+      },
+      {
+        "value": "139127",
+        "description": "032617_HWY_780_COLUMBUS"
+      },
+      {
+        "value": "9585",
+        "description": "032232_HWY_780_SOUTH_HAMPTON"
+      },
+      {
+        "value": "139129",
+        "description": "032616_HWY_780_SOUTH_HAMPTON"
+      },
+      {
+        "value": "599",
+        "description": "032441_HWY_80_580_MAZE"
+      },
+      {
+        "value": "149483",
+        "description": "032921_HWY_80_580_MAZE"
+      },
+      {
+        "value": "203791",
+        "description": "332921_HWY_80_580_MAZE_ENB2"
+      },
+      {
+        "value": "9223",
+        "description": "032231_HWY_80_AMERICAN_CANYON"
+      },
+      {
+        "value": "55925",
+        "description": "032524_HWY_80_CUMMINGS"
+      },
+      {
+        "value": "141629",
+        "description": "032620_HWY_80_CUMMINGS"
+      },
+      {
+        "value": "2045450",
+        "description": "332620_HWY_80_CUMMINGS_ENB2"
+      },
+      {
+        "value": "139131",
+        "description": "032618_HWY_80_MAGAZINE"
+      },
+      {
+        "value": "9219",
+        "description": "032482_HWY_80_MAGAZINE"
+      },
+      {
+        "value": "2552321",
+        "description": "332618_HWY_80_MAGAZINE_ENB2"
+      },
+      {
+        "value": "13739",
+        "description": "032159_HWY_80_MCBRYDE"
+      },
+      {
+        "value": "139133",
+        "description": "032975_HWY_80_MCBRYDE"
+      },
+      {
+        "value": "2914821",
+        "description": "332975_HWY_80_MCBRYDE_ENB2"
+      },
+      {
+        "value": "5483",
+        "description": "032240_HWY_80_UNIVERSITY"
+      },
+      {
+        "value": "149509",
+        "description": "032954_HWY_80_UNIVERSITY"
+      },
+      {
+        "value": "2260000",
+        "description": "332954_HWY_80_UNIVERSITY_ENB2"
+      },
+      {
+        "value": "145717",
+        "description": "032721_HWY_84_SUMMIT"
+      },
+      {
+        "value": "41469",
+        "description": "032095_HWY_84_SUMMIT"
+      },
+      {
+        "value": "160889",
+        "description": "332721_HWY_84_SUMMIT_ENB2"
+      },
+      {
+        "value": "3186991",
+        "description": "632721_HWY_84_SUMMIT_ENB3"
+      },
+      {
+        "value": "593",
+        "description": "032443_HWY_880_ALVARADO"
+      },
+      {
+        "value": "160039",
+        "description": "032811_HWY_880_ALVARADO"
+      },
+      {
+        "value": "180811",
+        "description": "332811_HWY_880_ALVARADO_ENB2"
+      },
+      {
+        "value": "6527",
+        "description": "032092_HWY_880_CYPRESS"
+      },
+      {
+        "value": "149485",
+        "description": "032916_HWY_880_CYPRESS"
+      },
+      {
+        "value": "2571491",
+        "description": "332916_HWY_880_CYPRESS_ENB2"
+      },
+      {
+        "value": "5639",
+        "description": "032447_HWY_880_DAVIS_STREET"
+      },
+      {
+        "value": "154419",
+        "description": "032853_HWY_880_DAVIS_STREET"
+      },
+      {
+        "value": "2257380",
+        "description": "332853_HWY_880_DAVIS_STREET_ENB2"
+      },
+      {
+        "value": "160041",
+        "description": "032788_HWY_880_DURHAM"
+      },
+      {
+        "value": "595",
+        "description": "032322_HWY_880_DURHAM"
+      },
+      {
+        "value": "48507",
+        "description": "032288_HWY_880_DURHAM_B2B"
+      },
+      {
+        "value": "1772223",
+        "description": "332288_HWY_880_DURHAM_B2B_ENB2"
+      },
+      {
+        "value": "1772225",
+        "description": "332788_HWY_880_DURHAM_ENB2"
+      },
+      {
+        "value": "152201",
+        "description": "032872_HWY_880_HEGENBERGER"
+      },
+      {
+        "value": "3333",
+        "description": "032450_HWY_880_HEGENBERGER"
+      },
+      {
+        "value": "135409",
+        "description": "032072_HWY_880_HEGENBERGER_B2B"
+      },
+      {
+        "value": "2060990",
+        "description": "332872_HWY_880_HEGENBERGER_ENB2"
+      },
+      {
+        "value": "2646681",
+        "description": "632872_HWY_880_HEGENBERGER_ENB3"
+      },
+      {
+        "value": "6435",
+        "description": "032298_HWY_880_INDUSTRIAL"
+      },
+      {
+        "value": "160043",
+        "description": "032826_HWY_880_INDUSTRIAL"
+      },
+      {
+        "value": "1758407",
+        "description": "332826_HWY_880_INDUSTRIAL_ENB2"
+      },
+      {
+        "value": "3159",
+        "description": "032432_HWY_880_STEVENSON"
+      },
+      {
+        "value": "160045",
+        "description": "032790_HWY_880_STEVENSON"
+      },
+      {
+        "value": "142461",
+        "description": "332790_HWY_880_STEVENSON_ENB2"
+      },
+      {
+        "value": "160047",
+        "description": "032825_HWY_880_TENNYSON"
+      },
+      {
+        "value": "3331",
+        "description": "032433_HWY_880_TENNYSON"
+      },
+      {
+        "value": "2751601",
+        "description": "332825_HWY_880_TENNYSON_ENB2"
+      },
+      {
+        "value": "67511",
+        "description": "032444_HWY_880_THORNTON"
+      },
+      {
+        "value": "160049",
+        "description": "032800_HWY_880_THORNTON"
+      },
+      {
+        "value": "157795",
+        "description": "032820_HWY_880_WHIPPLE"
+      },
+      {
+        "value": "587",
+        "description": "032390_HWY_880_WHIPPLE"
+      },
+      {
+        "value": "2046760",
+        "description": "332820_HWY_880_WHIPPLE_ENB2"
+      },
+      {
+        "value": "2639191",
+        "description": "632820_HWY_880_WHIPPLE_ENB3"
+      },
+      {
+        "value": "5959",
+        "description": "032413_HWY_92_880"
+      },
+      {
+        "value": "157933",
+        "description": "032831_HWY_92_880"
+      },
+      {
+        "value": "2632551",
+        "description": "332831_HWY_92_880_ENB2"
+      },
+      {
+        "value": "149487",
+        "description": "032913_HWY_980_GRAND"
+      },
+      {
+        "value": "689",
+        "description": "032449_HWY_980_GRAND"
+      },
+      {
+        "value": "178759",
+        "description": "332913_HWY_980_GRAND_ENB2"
+      },
+      {
+        "value": "2676591",
+        "description": "632913_HWY_980_GRAND_ENB3"
+      },
+      {
+        "value": "154445",
+        "description": "032860_INTERNATIONAL_14"
+      },
+      {
+        "value": "8121",
+        "description": "032166_INTERNATIONAL_14"
+      },
+      {
+        "value": "5721",
+        "description": "032110_IRVINGTON_FREMONT"
+      },
+      {
+        "value": "160051",
+        "description": "032792_IRVINGTON_FREMONT"
+      },
+      {
+        "value": "1255315",
+        "description": "332792_IRVINGTON_FREMONT_ENB2"
+      },
+      {
+        "value": "145753",
+        "description": "032716_ISABEL_AVE"
+      },
+      {
+        "value": "187175",
+        "description": "332716_ISABEL_AVE_ENB2"
+      },
+      {
+        "value": "41965",
+        "description": "032255_J4_BYRON_HOT_SPRINGS"
+      },
+      {
+        "value": "145755",
+        "description": "032689_J4_BYRON_HOT_SPRINGS"
+      },
+      {
+        "value": "567",
+        "description": "032426_JACKSON"
+      },
+      {
+        "value": "157935",
+        "description": "032840_JACKSON"
+      },
+      {
+        "value": "1393416",
+        "description": "332840_JACKSON_ENB2"
+      },
+      {
+        "value": "41339",
+        "description": "032539_JOHN_MUIR_MEDICAL"
+      },
+      {
+        "value": "3196881",
+        "description": "332539_JOHN_MUIR_MEDICAL_ENB2"
+      },
+      {
+        "value": "23781",
+        "description": "032483_KAISER_VACAVILLE"
+      },
+      {
+        "value": "61261",
+        "description": "032287_KELLER_AVE"
+      },
+      {
+        "value": "154447",
+        "description": "032859_KELLER_AVE"
+      },
+      {
+        "value": "6627",
+        "description": "032292_KENSINGTON_CIRCLE"
+      },
+      {
+        "value": "149511",
+        "description": "032958_KENSINGTON_CIRCLE"
+      },
+      {
+        "value": "154449",
+        "description": "032857_KINGS_ESTATE"
+      },
+      {
+        "value": "569",
+        "description": "032285_KINGS_ESTATE"
+      },
+      {
+        "value": "50707",
+        "description": "032097_KIRKER_PASS"
+      },
+      {
+        "value": "142969",
+        "description": "032521_KIRKER_PASS"
+      },
+      {
+        "value": "2504001",
+        "description": "332521_KIRKER_PASS_ENB2"
+      },
+      {
+        "value": "142973",
+        "description": "032666_KNIGHTSEN"
+      },
+      {
+        "value": "23625",
+        "description": "032352_KNIGHTSEN"
+      },
+      {
+        "value": "2196440",
+        "description": "332666_KNIGHTSEN_ENB2"
+      },
+      {
+        "value": "156425",
+        "description": "032568_LAFAYETTE"
+      },
+      {
+        "value": "5941",
+        "description": "032246_LAFAYETTE"
+      },
+      {
+        "value": "207737",
+        "description": "332568_LAFAYETTE_ENB2"
+      },
+      {
+        "value": "154421",
+        "description": "032891_LAKE_MERRITT_580_FRUITVALE"
+      },
+      {
+        "value": "7929",
+        "description": "032437_LAKE_MERRITT_580_FRUITVALE"
+      },
+      {
+        "value": "139685",
+        "description": "332891_LAKE_MERRITT_580_FRUITVALE_ENB2"
+      },
+      {
+        "value": "154423",
+        "description": "032892_LAKE_MERRITT_EAST"
+      },
+      {
+        "value": "4093",
+        "description": "032452_LAKE_MERRITT_EAST"
+      },
+      {
+        "value": "2552611",
+        "description": "332892_LAKE_MERRITT_EAST_ENB2"
+      },
+      {
+        "value": "23129",
+        "description": "032454_LANEY_COLLEGE"
+      },
+      {
+        "value": "154809",
+        "description": "032894_LANEY_COLLEGE"
+      },
+      {
+        "value": "208109",
+        "description": "332894_LANEY_COLLEGE_ENB2"
+      },
+      {
+        "value": "6577",
+        "description": "032380_LIVERMORE_ALT"
+      },
+      {
+        "value": "145757",
+        "description": "032706_LIVERMORE_ALT"
+      },
+      {
+        "value": "2280720",
+        "description": "332706_LIVERMORE_ALT_ENB2"
+      },
+      {
+        "value": "24583",
+        "description": "032208_LONE_TREE_DEER_VALLEY"
+      },
+      {
+        "value": "142975",
+        "description": "032656_LONE_TREE_DEER_VALLEY"
+      },
+      {
+        "value": "34185",
+        "description": "032219_LONE_TREE_FAIRVIEW"
+      },
+      {
+        "value": "142977",
+        "description": "032663_LONE_TREE_FAIRVIEW"
+      },
+      {
+        "value": "2281950",
+        "description": "332663_LONE_TREE_FAIRVIEW_ENB2"
+      },
+      {
+        "value": "133847",
+        "description": "032621_LONE_TREE_PT"
+      },
+      {
+        "value": "2503521",
+        "description": "332621_LONE_TREE_PT_ENB2"
+      },
+      {
+        "value": "129879",
+        "description": "032204_LOT_K_COW_1"
+      },
+      {
+        "value": "129963",
+        "description": "032205_LOT_K_COW_2"
+      },
+      {
+        "value": "141633",
+        "description": "032534_LOWER_LIME_RIDGE"
+      },
+      {
+        "value": "42867",
+        "description": "032256_LOWER_LIME_RIDGE"
+      },
+      {
+        "value": "2198170",
+        "description": "332534_LOWER_LIME_RIDGE_ENB2"
+      },
+      {
+        "value": "32235",
+        "description": "032276_LOWER_UNIVERSITY"
+      },
+      {
+        "value": "149521",
+        "description": "032952_LOWER_UNIVERSITY"
+      },
+      {
+        "value": "3463811",
+        "description": "332352_LOWER_UNIVERSITY_B2B_ENB2"
+      },
+      {
+        "value": "3463471",
+        "description": "332952_LOWER_UNIVERSITY_ENB2"
+      },
+      {
+        "value": "58709",
+        "description": "032459_MACARTHUR_35TH"
+      },
+      {
+        "value": "154811",
+        "description": "032889_MACARTHUR_35TH"
+      },
+      {
+        "value": "209307",
+        "description": "332889_MACARTHUR_35TH_ENB2"
+      },
+      {
+        "value": "51969",
+        "description": "032235_MACDONALD_AVE"
+      },
+      {
+        "value": "139135",
+        "description": "032969_MACDONALD_AVE"
+      },
+      {
+        "value": "2122670",
+        "description": "332969_MACDONALD_AVE_ENB2"
+      },
+      {
+        "value": "24715",
+        "description": "032215_MARE_ISLAND_NORTH"
+      },
+      {
+        "value": "139137",
+        "description": "032601_MARE_ISLAND_NORTH"
+      },
+      {
+        "value": "141635",
+        "description": "032513_MARGO_DR"
+      },
+      {
+        "value": "52425",
+        "description": "032257_MARGO_DR"
+      },
+      {
+        "value": "2324430",
+        "description": "332513_MARGO_DR_ENB2"
+      },
+      {
+        "value": "33649",
+        "description": "032198_MARKET_MACARTHUR"
+      },
+      {
+        "value": "149489",
+        "description": "032922_MARKET_MACARTHUR"
+      },
+      {
+        "value": "174825",
+        "description": "332922_MARKET_MACARTHUR_ENB2"
+      },
+      {
+        "value": "142979",
+        "description": "032531_MARSH_CREEK"
+      },
+      {
+        "value": "43163",
+        "description": "032291_MARSH_CREEK"
+      },
+      {
+        "value": "141559",
+        "description": "032530_MARSH_CREEK_EAST"
+      },
+      {
+        "value": "2389720",
+        "description": "332531_MARSH_CREEK_ENB2"
+      },
+      {
+        "value": "5473",
+        "description": "032307_MARTINEZ"
+      },
+      {
+        "value": "141637",
+        "description": "032631_MARTINEZ"
+      },
+      {
+        "value": "2342720",
+        "description": "332631_MARTINEZ_ENB2"
+      },
+      {
+        "value": "9205",
+        "description": "032211_MASONIC_TEMPLE"
+      },
+      {
+        "value": "139141",
+        "description": "032607_MASONIC_TEMPLE"
+      },
+      {
+        "value": "218347",
+        "description": "332607_MASONIC_TEMPLE_ENB2"
+      },
+      {
+        "value": "157937",
+        "description": "032735_MEADOWLARK_PARK"
+      },
+      {
+        "value": "114905",
+        "description": "032103_MEADOWLARK_PARK"
+      },
+      {
+        "value": "2042830",
+        "description": "332735_MEADOWLARK_PARK_ENB2"
+      },
+      {
+        "value": "30257",
+        "description": "032446_MELROSE"
+      },
+      {
+        "value": "154425",
+        "description": "032880_MELROSE"
+      },
+      {
+        "value": "1772465",
+        "description": "332880_MELROSE_ENB2"
+      },
+      {
+        "value": "160053",
+        "description": "032813_MISSION_APPIAN"
+      },
+      {
+        "value": "23997",
+        "description": "032329_MISSION_APPIAN"
+      },
+      {
+        "value": "209249",
+        "description": "332813_MISSION_APPIAN_ENB2"
+      },
+      {
+        "value": "160057",
+        "description": "032783_MISSION_DURHAM"
+      },
+      {
+        "value": "114919",
+        "description": "032423_MISSION_DURHAM"
+      },
+      {
+        "value": "1251",
+        "description": "032323_MISSION_HARDER"
+      },
+      {
+        "value": "157837",
+        "description": "032835_MISSION_HARDER"
+      },
+      {
+        "value": "178441",
+        "description": "332835_MISSION_HARDER_ENB2"
+      },
+      {
+        "value": "160059",
+        "description": "032821_MISSION_TENNYSON"
+      },
+      {
+        "value": "4993",
+        "description": "032367_MISSION_TENNYSON"
+      },
+      {
+        "value": "5057",
+        "description": "032221_MISSION_TENNYSON_B2B"
+      },
+      {
+        "value": "175351",
+        "description": "332221_MISSION_TENNYSON_B2B_ENB2"
+      },
+      {
+        "value": "175279",
+        "description": "332821_MISSION_TENNYSON_ENB2"
+      },
+      {
+        "value": "115851",
+        "description": "032102_MONUMENT_BLVD"
+      },
+      {
+        "value": "141639",
+        "description": "032519_MONUMENT_BLVD"
+      },
+      {
+        "value": "206691",
+        "description": "332519_MONUMENT_BLVD_ENB2"
+      },
+      {
+        "value": "156449",
+        "description": "032566_MORAGA"
+      },
+      {
+        "value": "7357",
+        "description": "032414_MORAGA"
+      },
+      {
+        "value": "2516191",
+        "description": "332566_MORAGA_ENB2"
+      },
+      {
+        "value": "7025",
+        "description": "032233_MORAGA_GLORIETTA"
+      },
+      {
+        "value": "156427",
+        "description": "032567_MORAGA_GLORIETTA"
+      },
+      {
+        "value": "142981",
+        "description": "032532_MORGAN_TERRITORY_RD"
+      },
+      {
+        "value": "47869",
+        "description": "032254_MORGAN_TERRITORY_RD"
+      },
+      {
+        "value": "1767425",
+        "description": "332532_MORGAN_TERRITORY_RD_ENB2"
+      },
+      {
+        "value": "160061",
+        "description": "032795_MOWRY"
+      },
+      {
+        "value": "1529",
+        "description": "032425_MOWRY"
+      },
+      {
+        "value": "209631",
+        "description": "332795_MOWRY_ENB2"
+      },
+      {
+        "value": "6749",
+        "description": "032376_NE_PLEASANTON"
+      },
+      {
+        "value": "145759",
+        "description": "032728_NE_PLEASANTON"
+      },
+      {
+        "value": "117261",
+        "description": "332376_NE_PLEASANTON_ENB2"
+      },
+      {
+        "value": "145761",
+        "description": "332728_NE_PLEASANTON_ENB2"
+      },
+      {
+        "value": "160063",
+        "description": "032801_NEWARK"
+      },
+      {
+        "value": "5495",
+        "description": "032415_NEWARK"
+      },
+      {
+        "value": "208331",
+        "description": "332801_NEWARK_ENB2"
+      },
+      {
+        "value": "98351",
+        "description": "032775_NILES_CANYON"
+      },
+      {
+        "value": "7405",
+        "description": "032369_NILES_CANYON"
+      },
+      {
+        "value": "2534771",
+        "description": "332775_NILES_CANYON_ENB2"
+      },
+      {
+        "value": "8007",
+        "description": "032259_NORRIS_CANYON"
+      },
+      {
+        "value": "157825",
+        "description": "032759_NORRIS_CANYON"
+      },
+      {
+        "value": "2539001",
+        "description": "332759_NORRIS_CANYON_ENB2"
+      },
+      {
+        "value": "51657",
+        "description": "032155_NORTH_ORINDA"
+      },
+      {
+        "value": "156429",
+        "description": "032573_NORTH_ORINDA"
+      },
+      {
+        "value": "2378510",
+        "description": "332573_NORTH_ORINDA_ENB2"
+      },
+      {
+        "value": "141643",
+        "description": "032637_NORTH_WEST_PLEASANT_HILL"
+      },
+      {
+        "value": "13047",
+        "description": "032389_NORTH_WEST_PLEASANT_HILL"
+      },
+      {
+        "value": "1776367",
+        "description": "332637_NORTH_WEST_PLEASANT_HILL_ENB2"
+      },
+      {
+        "value": "7701",
+        "description": "032316_NORTHWEST_CONCORD"
+      },
+      {
+        "value": "141641",
+        "description": "032636_NORTHWEST_CONCORD"
+      },
+      {
+        "value": "1774213",
+        "description": "332636_NORTHWEST_CONCORD_ENB2"
+      },
+      {
+        "value": "154451",
+        "description": "032065_OAKLAND_AIRPORT_DAS"
+      },
+      {
+        "value": "8459",
+        "description": "032279_OAKLAND_AIRPORT_DAS"
+      },
+      {
+        "value": "206221",
+        "description": "032066_OAKLAND_AIRPORT_DAS_3"
+      },
+      {
+        "value": "154427",
+        "description": "032908_OAKLAND_CHINATOWN"
+      },
+      {
+        "value": "12361",
+        "description": "032488_OAKLAND_CHINATOWN"
+      },
+      {
+        "value": "179961",
+        "description": "332908_OAKLAND_CHINATOWN_ENB2"
+      },
+      {
+        "value": "22257",
+        "description": "032009_Oakland_Coliseum_COW_North"
+      },
+      {
+        "value": "22253",
+        "description": "032509_Oakland_Coliseum_COW_North_2"
+      },
+      {
+        "value": "22259",
+        "description": "032008_Oakland_Coliseum_COW_South"
+      },
+      {
+        "value": "130995",
+        "description": "032203_OAKLAND_COLISEUM_COW_SOUTH"
+      },
+      {
+        "value": "22265",
+        "description": "032508_Oakland_Coliseum_COW_South_2"
+      },
+      {
+        "value": "98345",
+        "description": "032175_OAKLAND_COLISEUM_DAS_1_ALPHA"
+      },
+      {
+        "value": "152203",
+        "description": "032075_OAKLAND_COLISEUM_DAS_1_ALPHA"
+      },
+      {
+        "value": "152205",
+        "description": "032076_OAKLAND_COLISEUM_DAS_1_BETA"
+      },
+      {
+        "value": "152207",
+        "description": "032077_OAKLAND_COLISEUM_DAS_1_GAMMA"
+      },
+      {
+        "value": "129345",
+        "description": "032078_OAKLAND_COLISEUM_DAS_2_ALPHA"
+      },
+      {
+        "value": "129461",
+        "description": "032079_OAKLAND_COLISEUM_DAS_2_BETA"
+      },
+      {
+        "value": "129347",
+        "description": "032080_OAKLAND_COLISEUM_DAS_2_GAMMA"
+      },
+      {
+        "value": "129261",
+        "description": "032081_OAKLAND_COLISEUM_DAS_3_ALPHA"
+      },
+      {
+        "value": "129467",
+        "description": "032082_OAKLAND_COLISEUM_DAS_3_BETA"
+      },
+      {
+        "value": "129263",
+        "description": "032083_OAKLAND_COLISEUM_DAS_3_GAMMA"
+      },
+      {
+        "value": "129351",
+        "description": "032084_OAKLAND_COLISEUM_DAS_4_ALPHA"
+      },
+      {
+        "value": "129801",
+        "description": "032778_OAKLAND_COLISEUM_DAS_4_BETA"
+      },
+      {
+        "value": "23675",
+        "description": "032085_OAKLAND_COLISEUM_DAS_4_BETA"
+      },
+      {
+        "value": "129361",
+        "description": "032086_OAKLAND_COLISEUM_DAS_4_GAMMA"
+      },
+      {
+        "value": "6297",
+        "description": "032087_OAKLAND_COLISEUM_DAS_5_ALPHA"
+      },
+      {
+        "value": "129805",
+        "description": "032179_OAKLAND_COLISEUM_DAS_5_ALPHA"
+      },
+      {
+        "value": "129475",
+        "description": "032088_OAKLAND_COLISEUM_DAS_5_BETA"
+      },
+      {
+        "value": "13311",
+        "description": "032089_OAKLAND_COLISEUM_DAS_5_GAMMA"
+      },
+      {
+        "value": "129809",
+        "description": "032879_OAKLAND_COLISEUM_DAS_5_GAMMA"
+      },
+      {
+        "value": "71013",
+        "description": "032451_OAKLAND_HILLS_DAS"
+      },
+      {
+        "value": "154429",
+        "description": "032051_OAKLAND_HILLS_DAS"
+      },
+      {
+        "value": "44661",
+        "description": "032498_OAKLAND_LAKESIDE"
+      },
+      {
+        "value": "154431",
+        "description": "032912_OAKLAND_LAKESIDE"
+      },
+      {
+        "value": "1766967",
+        "description": "332912_OAKLAND_LAKESIDE_ENB2"
+      },
+      {
+        "value": "154453",
+        "description": "032886_OAKLAND_SOUTH"
+      },
+      {
+        "value": "601",
+        "description": "032416_OAKLAND_SOUTH"
+      },
+      {
+        "value": "189053",
+        "description": "332886_OAKLAND_SOUTH_ENB2"
+      },
+      {
+        "value": "149515",
+        "description": "032942_OAKLAND_WEST_BERKELEY"
+      },
+      {
+        "value": "7793",
+        "description": "032404_OAKLAND_WEST_BERKELEY"
+      },
+      {
+        "value": "2549171",
+        "description": "332942_OAKLAND_WEST_BERKELEY_ENB2"
+      },
+      {
+        "value": "36559",
+        "description": "032527_OAKLEY"
+      },
+      {
+        "value": "142983",
+        "description": "032659_OAKLEY"
+      },
+      {
+        "value": "1775527",
+        "description": "332659_OAKLEY_ENB2"
+      },
+      {
+        "value": "6497",
+        "description": "032154_ORINDA_CDMA"
+      },
+      {
+        "value": "156417",
+        "description": "032572_ORINDA_CDMA"
+      },
+      {
+        "value": "2373670",
+        "description": "332572_ORINDA_CDMA_ENB2"
+      },
+      {
+        "value": "120427",
+        "description": "032353_ORWOOD_TRACT"
+      },
+      {
+        "value": "143009",
+        "description": "032677_ORWOOD_TRACT"
+      },
+      {
+        "value": "2281880",
+        "description": "332677_ORWOOD_TRACT_ENB2"
+      },
+      {
+        "value": "160065",
+        "description": "032809_PASEO_PADRE_ARDENWOOD"
+      },
+      {
+        "value": "23975",
+        "description": "032445_PASEO_PADRE_ARDENWOOD"
+      },
+      {
+        "value": "2808041",
+        "description": "332809_PASEO_PADRE_ARDENWOOD_ENB2"
+      },
+      {
+        "value": "10923",
+        "description": "032522_PINOLE"
+      },
+      {
+        "value": "139145",
+        "description": "032994_PINOLE"
+      },
+      {
+        "value": "2193760",
+        "description": "332994_PINOLE_ENB2"
+      },
+      {
+        "value": "64733",
+        "description": "032523_PINOLE_TRIANGLE"
+      },
+      {
+        "value": "139147",
+        "description": "032985_PINOLE_TRIANGLE"
+      },
+      {
+        "value": "10991",
+        "description": "032300_PINOLE_VALLEY"
+      },
+      {
+        "value": "139149",
+        "description": "032988_PINOLE_VALLEY"
+      },
+      {
+        "value": "2165010",
+        "description": "332988_PINOLE_VALLEY_ENB2"
+      },
+      {
+        "value": "142985",
+        "description": "032650_PITTSBURG_BUCHANAN"
+      },
+      {
+        "value": "103921",
+        "description": "032540_PITTSBURG_BUCHANAN"
+      },
+      {
+        "value": "2268490",
+        "description": "332650_PITTSBURG_BUCHANAN_ENB2"
+      },
+      {
+        "value": "2919821",
+        "description": "032652_PITTSBURG_LANDING"
+      },
+      {
+        "value": "142989",
+        "description": "032649_PITTSBURG_RELO"
+      },
+      {
+        "value": "217305",
+        "description": "332649_PITTSBURG_RELO_ENB2"
+      },
+      {
+        "value": "119115",
+        "description": "032113_PITTSBURG_WILLOW_PASS"
+      },
+      {
+        "value": "142991",
+        "description": "032647_PITTSBURG_WILLOW_PASS"
+      },
+      {
+        "value": "35979",
+        "description": "032395_Pleasant_Hill_BART"
+      },
+      {
+        "value": "141645",
+        "description": "032537_Pleasant_Hill_BART"
+      },
+      {
+        "value": "2619471",
+        "description": "332537_Pleasant_Hill_BART_ENB2"
+      },
+      {
+        "value": "3799611",
+        "description": "632537_PLEASANT_HILL_BART_ENB3"
+      },
+      {
+        "value": "579",
+        "description": "032381_PLEASANTON_CELL"
+      },
+      {
+        "value": "145763",
+        "description": "032737_PLEASANTON_CELL"
+      },
+      {
+        "value": "145765",
+        "description": "332737_PLEASANTON_ENB2"
+      },
+      {
+        "value": "117263",
+        "description": "332381_PLEASANTON_ENB2"
+      },
+      {
+        "value": "142995",
+        "description": "032641_PORT_CHICAGO"
+      },
+      {
+        "value": "211985",
+        "description": "332641_PORT_CHICAGO_ENB2"
+      },
+      {
+        "value": "2937",
+        "description": "032290_RAIDER_NATION"
+      },
+      {
+        "value": "152209",
+        "description": "032874_RAIDER_NATION"
+      },
+      {
+        "value": "7787",
+        "description": "032274_RAIDER_NATION_2"
+      },
+      {
+        "value": "21563",
+        "description": "032690_RAIDER_NATION_2"
+      },
+      {
+        "value": "665021",
+        "description": "332274_RAIDER_NATION_2_ENB2"
+      },
+      {
+        "value": "2647441",
+        "description": "632274_RAIDER_NATION_2_ENB3"
+      },
+      {
+        "value": "659623",
+        "description": "332874_RAIDER_NATION_ENB2"
+      },
+      {
+        "value": "156423",
+        "description": "032563_Rheem_Valley"
+      },
+      {
+        "value": "23771",
+        "description": "032251_Rheem_Valley"
+      },
+      {
+        "value": "2615571",
+        "description": "332563_RHEEM_VALLEY_ENB2"
+      },
+      {
+        "value": "139151",
+        "description": "032967_RICHMOND"
+      },
+      {
+        "value": "1297",
+        "description": "032417_RICHMOND"
+      },
+      {
+        "value": "8721",
+        "description": "032435_RICHMOND_CIVIC_CENTER"
+      },
+      {
+        "value": "139153",
+        "description": "032965_RICHMOND_CIVIC_CENTER"
+      },
+      {
+        "value": "2604781",
+        "description": "632967_RICHMOND_ENB3"
+      },
+      {
+        "value": "139155",
+        "description": "032974_RICHMOND_PARKWAY"
+      },
+      {
+        "value": "40405",
+        "description": "032160_RICHMOND_PARKWAY"
+      },
+      {
+        "value": "567899",
+        "description": "332974_RICHMOND_PARKWAY_ENB2"
+      },
+      {
+        "value": "141647",
+        "description": "032623_RODEO"
+      },
+      {
+        "value": "19953",
+        "description": "032301_RODEO"
+      },
+      {
+        "value": "209259",
+        "description": "332623_RODEO_ENB2"
+      },
+      {
+        "value": "139157",
+        "description": "032612_ROSE_DR"
+      },
+      {
+        "value": "120025",
+        "description": "032104_ROSE_DR"
+      },
+      {
+        "value": "156447",
+        "description": "032562_ROSSMORE"
+      },
+      {
+        "value": "23829",
+        "description": "032244_ROSSMORE"
+      },
+      {
+        "value": "2810571",
+        "description": "332562_ROSSMORE_ENB2"
+      },
+      {
+        "value": "15477",
+        "description": "032250_ROUND_HILL"
+      },
+      {
+        "value": "156457",
+        "description": "032576_ROUND_HILL"
+      },
+      {
+        "value": "152211",
+        "description": "032851_SAN_LEANDRO_MARINA"
+      },
+      {
+        "value": "65735",
+        "description": "032467_SAN_LEANDRO_MARINA"
+      },
+      {
+        "value": "189051",
+        "description": "332851_SAN_LEANDRO_MARINA_ENB2"
+      },
+      {
+        "value": "581",
+        "description": "032418_SAN_LEANDRO_SOUTH"
+      },
+      {
+        "value": "152213",
+        "description": "032852_SAN_LEANDRO_SOUTH"
+      },
+      {
+        "value": "40457",
+        "description": "032252_SAN_LEANDRO_SOUTH_B2B"
+      },
+      {
+        "value": "161607",
+        "description": "332252_SAN_LEANDRO_SOUTH_B2B_ENB2"
+      },
+      {
+        "value": "161545",
+        "description": "332852_SAN_LEANDRO_SOUTH_ENB2"
+      },
+      {
+        "value": "2637631",
+        "description": "632852_SAN_LEANDRO_SOUTH_ENB3"
+      },
+      {
+        "value": "3258981",
+        "description": "032858_SAN_LEANDRO_VERIZON_STORE_IDAS"
+      },
+      {
+        "value": "23767",
+        "description": "032397_San_Lorenzo"
+      },
+      {
+        "value": "152215",
+        "description": "032845_San_Lorenzo"
+      },
+      {
+        "value": "1305649",
+        "description": "332845_San_Lorenzo_ENB2"
+      },
+      {
+        "value": "160067",
+        "description": "032829_SAN_MATEO_BC5_E"
+      },
+      {
+        "value": "577",
+        "description": "032419_SAN_MATEO_BC5_E"
+      },
+      {
+        "value": "2231121",
+        "description": "332829_SAN_MATEO_BC5_E_ENB2"
+      },
+      {
+        "value": "139161",
+        "description": "032983_SAN_PABLO_DAM_ROAD"
+      },
+      {
+        "value": "10513",
+        "description": "032223_SAN_PABLO_DAM_ROAD"
+      },
+      {
+        "value": "2639591",
+        "description": "332983_SAN_PABLO_DAM_ROAD_ENB2"
+      },
+      {
+        "value": "139163",
+        "description": "032979_SAN_PABLO_WEST"
+      },
+      {
+        "value": "9441",
+        "description": "032409_SAN_PABLO_WEST"
+      },
+      {
+        "value": "6603",
+        "description": "032379_SAN_PABLO_WEST_B2B"
+      },
+      {
+        "value": "2211530",
+        "description": "332379_SAN_PABLO_WEST_B2B_ENB2"
+      },
+      {
+        "value": "2211420",
+        "description": "332979_SAN_PABLO_WEST_ENB2"
+      },
+      {
+        "value": "157827",
+        "description": "032770_SAN_RAMON_VILLAGE"
+      },
+      {
+        "value": "571",
+        "description": "032372_SAN_RAMON_VILLAGE"
+      },
+      {
+        "value": "2503871",
+        "description": "332770_SAN_RAMON_VILLAGE_ENB2"
+      },
+      {
+        "value": "145767",
+        "description": "032726_SANTA_RITA_VALLEY"
+      },
+      {
+        "value": "15613",
+        "description": "032262_SANTA_RITA_VALLEY"
+      },
+      {
+        "value": "1775543",
+        "description": "332726_SANTA_RITA_VALLEY_ENB2"
+      },
+      {
+        "value": "117265",
+        "description": "332375_SHADELANDS_ENB2"
+      },
+      {
+        "value": "141649",
+        "description": "332543_SHADELANDS_ENB2"
+      },
+      {
+        "value": "141651",
+        "description": "032543_SHADELANDS_WC"
+      },
+      {
+        "value": "5931",
+        "description": "032375_SHADELANDS_WC"
+      },
+      {
+        "value": "23661",
+        "description": "032277_SHATTUCK_NORTH"
+      },
+      {
+        "value": "149517",
+        "description": "032951_SHATTUCK_NORTH"
+      },
+      {
+        "value": "1759773",
+        "description": "332951_SHATTUCK_NORTH_ENB2"
+      },
+      {
+        "value": "149519",
+        "description": "032945_SHATTUCK_SOUTH"
+      },
+      {
+        "value": "7323",
+        "description": "032297_SHATTUCK_SOUTH"
+      },
+      {
+        "value": "156431",
+        "description": "032556_SMITH_HILL"
+      },
+      {
+        "value": "171427",
+        "description": "332556_SMITH_HILL_ENB2"
+      },
+      {
+        "value": "6191",
+        "description": "032545_SOLANO_WAY"
+      },
+      {
+        "value": "141653",
+        "description": "032507_SOLANO_WAY"
+      },
+      {
+        "value": "2625361",
+        "description": "332507_SOLANO_WAY_ENB2"
+      },
+      {
+        "value": "64187",
+        "description": "032351_SOUTH_BRENTWOOD"
+      },
+      {
+        "value": "142999",
+        "description": "032673_SOUTH_BRENTWOOD"
+      },
+      {
+        "value": "76517",
+        "description": "032398_SOUTH_LOOP_RD"
+      },
+      {
+        "value": "154455",
+        "description": "032866_SOUTH_LOOP_RD"
+      },
+      {
+        "value": "156445",
+        "description": "032547_SOUTH_WEST_PLEASANT_HILL"
+      },
+      {
+        "value": "6607",
+        "description": "032393_SOUTH_WEST_PLEASANT_HILL"
+      },
+      {
+        "value": "71215",
+        "description": "032247_STANLEY_BLVD"
+      },
+      {
+        "value": "145721",
+        "description": "032712_STANLEY_BLVD"
+      },
+      {
+        "value": "2511141",
+        "description": "332712_STANLEY_BLVD_ENB2"
+      },
+      {
+        "value": "130793",
+        "description": "032719_STANLEY_EL_CHARRO"
+      },
+      {
+        "value": "54003",
+        "description": "032100_STONEBRAE"
+      },
+      {
+        "value": "157829",
+        "description": "032838_STONEBRAE"
+      },
+      {
+        "value": "37163",
+        "description": "032007_Stonebrae_COLT"
+      },
+      {
+        "value": "2207700",
+        "description": "332838_STONEBRAE_ENB2"
+      },
+      {
+        "value": "7185",
+        "description": "032260_STONERIDGE_MALL"
+      },
+      {
+        "value": "157939",
+        "description": "032734_STONERIDGE_MALL"
+      },
+      {
+        "value": "6611",
+        "description": "032370_SUNOL_GRADE"
+      },
+      {
+        "value": "157835",
+        "description": "032742_SUNOL_GRADE"
+      },
+      {
+        "value": "2690011",
+        "description": "332742_SUNOL_GRADE_ENB2"
+      },
+      {
+        "value": "156433",
+        "description": "032590_TASSAJARA"
+      },
+      {
+        "value": "6599",
+        "description": "032382_TASSAJARA"
+      },
+      {
+        "value": "2538101",
+        "description": "332590_TASSAJARA_ENB2"
+      },
+      {
+        "value": "7239",
+        "description": "032383_TASSAJARA_LAWRENCE_RD"
+      },
+      {
+        "value": "156435",
+        "description": "032595_TASSAJARA_LAWRENCE_RD"
+      },
+      {
+        "value": "145769",
+        "description": "032597_TASSAJARA_NORTH"
+      },
+      {
+        "value": "2206620",
+        "description": "332597_TASSAJARA_NORTH_ENB2"
+      },
+      {
+        "value": "157831",
+        "description": "032754_TASSAJARA_SOUTH"
+      },
+      {
+        "value": "11351",
+        "description": "032206_TASSAJARA_SOUTH"
+      },
+      {
+        "value": "2261170",
+        "description": "032909_TELEGRAPH_BROADWAY"
+      },
+      {
+        "value": "3133091",
+        "description": "332909_TELEGRAPH_BROADWAY_ENB2"
+      },
+      {
+        "value": "23779",
+        "description": "032505_TENNENT_AVE"
+      },
+      {
+        "value": "139167",
+        "description": "032991_TENNENT_AVE"
+      },
+      {
+        "value": "1775713",
+        "description": "332991_TENNENT_AVE_ENB2"
+      },
+      {
+        "value": "23995",
+        "description": "032202_TREASURE_ISLAND_COW"
+      },
+      {
+        "value": "54161",
+        "description": "032907_TREASURE_ISLAND_COW"
+      },
+      {
+        "value": "573",
+        "description": "032421_UC_BERKELEY"
+      },
+      {
+        "value": "149491",
+        "description": "032933_UC_BERKELEY"
+      },
+      {
+        "value": "8703",
+        "description": "032228_UC_BERKELEY_EAST"
+      },
+      {
+        "value": "149523",
+        "description": "032948_UC_BERKELEY_EAST"
+      },
+      {
+        "value": "175001",
+        "description": "332933_UC_BERKELEY_ENB2"
+      },
+      {
+        "value": "22333",
+        "description": "032227_UC_BERKELEY_SOUTH_SIDE"
+      },
+      {
+        "value": "149525",
+        "description": "032947_UC_BERKELEY_SOUTH_SIDE"
+      },
+      {
+        "value": "211771",
+        "description": "332947_UC_BERKELEY_SOUTH_SIDE_ENB2"
+      },
+      {
+        "value": "160069",
+        "description": "032814_UNION_CITY"
+      },
+      {
+        "value": "1163",
+        "description": "032420_UNION_CITY"
+      },
+      {
+        "value": "174791",
+        "description": "032817_UNION_CITY_DYER"
+      },
+      {
+        "value": "2324420",
+        "description": "332817_UNION_CITY_DYER_ENB2"
+      },
+      {
+        "value": "2807811",
+        "description": "332814_UNION_CITY_ENB2"
+      },
+      {
+        "value": "160071",
+        "description": "032816_UNION_CITY_WEST"
+      },
+      {
+        "value": "53755",
+        "description": "032408_UNION_CITY_WEST"
+      },
+      {
+        "value": "1055511",
+        "description": "332816_UNION_CITY_WEST_ENB2"
+      },
+      {
+        "value": "139165",
+        "description": "032603_VALLEJO_PERM"
+      },
+      {
+        "value": "2635351",
+        "description": "032604_VALLEJO_VERIZON_STORE_IDAS"
+      },
+      {
+        "value": "52333",
+        "description": "032213_VASCO_RD"
+      },
+      {
+        "value": "145771",
+        "description": "032699_VASCO_RD"
+      },
+      {
+        "value": "2211850",
+        "description": "332699_VASCO_RD_ENB2"
+      },
+      {
+        "value": "70519",
+        "description": "032188_VASCO_ROAD_NORTH"
+      },
+      {
+        "value": "145777",
+        "description": "032696_VASCO_ROAD_NORTH"
+      },
+      {
+        "value": "2389730",
+        "description": "332696_VASCO_ROAD_NORTH_ENB2"
+      },
+      {
+        "value": "145779",
+        "description": "032680_VICTORIA_ISLAND"
+      },
+      {
+        "value": "2272090",
+        "description": "332680_VICTORIA_ISLAND_ENB2"
+      },
+      {
+        "value": "34085",
+        "description": "032218_VISTA_GRANDE"
+      },
+      {
+        "value": "156437",
+        "description": "032582_VISTA_GRANDE"
+      },
+      {
+        "value": "1775635",
+        "description": "332582_VISTA_GRANDE_ENB2"
+      },
+      {
+        "value": "220707",
+        "description": "032541_WALNUT_CREEK_VZW_CAMPUS_IDAS"
+      },
+      {
+        "value": "1262151",
+        "description": "332541_WALNUT_CREEK_VZW_CAMPUS_IDAS_ENB2"
+      },
+      {
+        "value": "575",
+        "description": "032422_WARM_SPRINGS"
+      },
+      {
+        "value": "160073",
+        "description": "032784_WARM_SPRINGS"
+      },
+      {
+        "value": "139375",
+        "description": "332784_WARM_SPRINGS_ENB2"
+      },
+      {
+        "value": "55045",
+        "description": "032328_WARM_SPRINGS_GABLE"
+      },
+      {
+        "value": "152217",
+        "description": "032786_WARM_SPRINGS_GABLE"
+      },
+      {
+        "value": "2919411",
+        "description": "332786_WARM_SPRINGS_GABLE_ENB2"
+      },
+      {
+        "value": "91789",
+        "description": "032327_WARM_SPRINGS_SCOTT"
+      },
+      {
+        "value": "152219",
+        "description": "032787_WARM_SPRINGS_SCOTT"
+      },
+      {
+        "value": "2052300",
+        "description": "332787_WARM_SPRINGS_SCOTT_ENB2"
+      },
+      {
+        "value": "33157",
+        "description": "032504_WEST_BRENTWOOD"
+      },
+      {
+        "value": "143003",
+        "description": "032670_WEST_BRENTWOOD"
+      },
+      {
+        "value": "23689",
+        "description": "032299_WEST_JACKSON"
+      },
+      {
+        "value": "157833",
+        "description": "032833_WEST_JACKSON"
+      },
+      {
+        "value": "141465",
+        "description": "332833_WEST_JACKSON_ENB2"
+      },
+      {
+        "value": "6523",
+        "description": "032196_WEST_NEWARK"
+      },
+      {
+        "value": "160075",
+        "description": "032802_WEST_NEWARK"
+      },
+      {
+        "value": "2230500",
+        "description": "332802_WEST_NEWARK_ENB2"
+      },
+      {
+        "value": "135985",
+        "description": "032644_WEST_PITTSBURG"
+      },
+      {
+        "value": "188177",
+        "description": "332644_WEST_PITTSBURG_ENB2"
+      },
+      {
+        "value": "194093",
+        "description": "032715_WETMORE_RD"
+      },
+      {
+        "value": "4761",
+        "description": "032309_WILLOW_PASS"
+      },
+      {
+        "value": "141655",
+        "description": "032643_WILLOW_PASS"
+      },
+      {
+        "value": "217091",
+        "description": "332643_WILLOW_PASS_ENB2"
+      },
+      {
+        "value": "141657",
+        "description": "032511_WILLOW_PASS_PARK"
+      },
+      {
+        "value": "14927",
+        "description": "032249_WILLOW_PASS_PARK"
+      },
+      {
+        "value": "1314339",
+        "description": "332511_WILLOW_PASS_PARK_ENB2"
+      },
+      {
+        "value": "145725",
+        "description": "032702_WINDFARM"
+      },
+      {
+        "value": "61449",
+        "description": "032462_WINDFARM"
+      },
+      {
+        "value": "2327810",
+        "description": "332702_WINDFARM_ENB2"
+      },
+      {
+        "value": "3677",
+        "description": "032318_YGNACIO_VALLEY_WC"
+      },
+      {
+        "value": "156439",
+        "description": "032548_YGNACIO_VALLEY_WC"
+      },
+      {
+        "value": "35721",
+        "description": "032248_YGNACIO_VALLEY_WC_B2B"
+      },
+      {
+        "value": "168559",
+        "description": "332248_YGNACIO_VALLEY_WC_B2B_ENB2"
+      },
+      {
+        "value": "168557",
+        "description": "332548_YGNACIO_VALLEY_WC_ENB2"
+      },
+      {
+        "value": "3509",
+        "description": "032392_YGNACIO_WIGET"
+      },
+      {
+        "value": "141659",
+        "description": "032542_YGNACIO_WIGET"
+      },
+      {
+        "value": "1759861",
+        "description": "332542_YGNACIO_WIGET_ENB2"
+      },
+      {
+        "value": "2573771",
+        "description": "632542_YGNACIO_WIGET_ENB3"
+      }
+    ]

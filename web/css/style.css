@@ -1,4 +1,50 @@
-html, body { height: 100%; width: 100%; margin: 0; }
+html, body { 
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  padding-top: 50px;
+  position: relative;
+}
+
+pre {
+  tab-size: 8;
+}
+
+@media screen and (max-width: 768px) {
+  .side-collapse-container{
+	  width:100%;
+	  position:relative;
+	  left:0;
+	  transition:left .4s;
+  }
+  .side-collapse-container.out{
+	  left:200px;
+  }
+  .side-collapse {
+	  top:50px;
+	  bottom:0;
+	  left:0;
+	  width:200px;
+	  position:fixed;
+	  overflow:hidden;
+	  transition:width .4s;
+  }
+  .side-collapse.in {
+	  width:0;
+  }
+  
+	.dropdown-menu:before {	  
+	  top: 17px;
+	}
+	
+	.dropdown-menu:after {	  
+	  top: 16px;
+	}
+}
 
 h1.ng-binding{
     font-size:24px;
@@ -13,8 +59,18 @@ h2{
 #main-content {
 	height: 90%; 
 	width: auto; 
+	padding-top:10px;
 	padding-left: 10px; 
 	padding-right: 10px
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
 }
 
 .row-full-height {
@@ -37,39 +93,86 @@ h2{
     left: auto !important;
     right: -25% !important;
 }
+
 .centerDropdown:after {
    left: auto !important;
    right: 45% !important;
 }
 
-.dropdown-menu:before {
-  position: absolute;
-  top: -7px;
-  /*
-  left: 39px;
-  */
-  display: inline-block;
-  border-right: 7px solid transparent;
-  border-bottom: 7px solid #ccc;
-  border-left: 7px solid transparent;
-  border-bottom-color: rgba(0, 0, 0, 0.2);
-  content: '';
-  left: auto !important;
-  right: 64.5% !important;
+@media screen and (min-width:750px) {
+
+  .dropdown-menu:before {
+    position: absolute;
+    top: -7px;
+    /*
+    left: 39px;
+    */
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+    left: auto !important;
+    right: 64.5% !important;
+  }
+
+  .dropdown-menu:after {
+    position: absolute;
+    top: -6px;
+    /*
+    left: 40px;
+    */
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #ffffff;
+    border-left: 6px solid transparent;
+    content: '';
+    left: auto !important;
+    right: 65% !important;
+
+  }
 }
 
-.dropdown-menu:after {
-  position: absolute;
-  top: -6px;
-  /*
-  left: 40px;
-  */
-  display: inline-block;
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid #ffffff;
-  border-left: 6px solid transparent;
-  content: '';
-  left: auto !important;
-  right: 65% !important;
+.data-row .data-name {
+/**
+  background-color: #ececec;
+  **/
+  color: #b9b9b9;
+  font-size: 0.9em;
+  vertical-align: top;
+  width: 16em;
+}
 
+.data-row .data-name, .data-row .data-value {
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.badge-info {
+    background-color: #3c763d;
+}
+
+
+#navcontainer ul li {
+  display: inline;
+  padding: 5px;
+  border-top: 1px solid #DDDDDD;
+}
+
+#navcontainer {
+  font-size: 0.9em;
+  min-width: 650px;
+  max-width: 80%;
+  max-height: 600px;
+  background-clip: padding-box;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  outline: medium none;
+  border-top: 1px solid #DDDDDD;
+  line-height: 1.42857;
+  vertical-align: top;
 }

@@ -46,14 +46,43 @@
 	</div>
 	
 	<div class="row">
-		<div class="col-md-6">
-			<label>Max # of scheduled reports:{{model.userInfo.maxNo}}</label><br/>				
-			<label>Current disk usage (MB):{{model.userInfo.currentDiskUsage}}</label><br/>				
-			<label>Max disk usage (MB):{{model.userInfo.maxDiskUsage}}</label><br/>				
-			<label>Purge limit (days):{{model.userInfo.purgeLimit}}</label><br/>		
-			<label>Access level:{{model.userInfo.accessLevel}}</label><br/>		
-			<label>Status:{{model.userInfo.status}}</label><br/>
+		<div class="col-md-6 data-value">			
+		<div class="panel panel-default">
+			<ul class="list-unstyled list-info-sidebar bottom-30px">			
+				<li class="data-row">
+					<div class="data-name">Max # of scheduled reports:</div>
+					<div class="data-value">{{model.userInfo.maxNo}} </div>
+				</li>
+				<li class="data-row">
+					<div class="data-name">Current disk usage (MB)</div>
+					<div class="data-value">
+						{{model.userInfo.currentDiskUsage}} / 10000 MB
+						<div class="progress progress-xs">
+							<div style="width: 0%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="46" role="progressbar" class="progress-bar progress-bar-warning">
+								<span class="sr-only">46%</span>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="data-row">
+					<span class="data-name">Max disk usage (MB)</span>
+					<span class="data-value">{{model.userInfo.maxDiskUsage}}</span>
+				</li>
+				<li class="data-row">
+					<span class="data-name">Purge limit (days)</span>
+					<span class="data-value">{{model.userInfo.purgeLimit}}</span>
+				</li>
+				<li class="data-row">
+					<span class="data-name">Access level</span>
+					<span class="data-value">{{model.userInfo.accessLevel}}</span>
+				</li>
+				<li class="data-row">
+					<span class="data-name">Status</span>
+					<span class="data-value">{{model.userInfo.status}}</span>
+				</li>
+			</ul>
 		</div>
+		</div>		
 		
 		<div class="col-md-6">
 			<label>Mobile Number:</label>					
